@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T05:36:37.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="LL9epLWsSW6O9mLMAlDq" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T05:40:54.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="-P6060lnMAHWOf_1sPII" version="17.4.6" type="github">
   <diagram id="JvjC3xm0Hi5qa_1F5xGV" name="小程序主流开发框架对比">
     <mxGraphModel dx="1354" dy="-1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -747,8 +747,26 @@
             <mxRectangle width="500" height="43" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-523" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-273">
+          <mxGeometry y="653" width="1190.0000000000014" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-524" value="混合开发" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;fontStyle=1" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-523">
+          <mxGeometry width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-525" value="不支持" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-523">
+          <mxGeometry x="280" width="410" height="40" as="geometry">
+            <mxRectangle width="410" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-526" value="&lt;a href=&quot;https://uniapp.dcloud.io/hybrid.html&quot;&gt;支持与原生APP与微信小程序混合开发&lt;/a&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-523">
+          <mxGeometry x="690" width="500" height="40" as="geometry">
+            <mxRectangle width="500" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kYMN8gXYN29zYbQPkMFa-324" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-273">
-          <mxGeometry y="653" width="1190.0000000000014" height="41" as="geometry" />
+          <mxGeometry y="693" width="1190.0000000000014" height="41" as="geometry" />
         </mxCell>
         <mxCell id="kYMN8gXYN29zYbQPkMFa-325" value="&lt;span&gt;编译速度&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;fontStyle=1" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-324">
           <mxGeometry width="280" height="41" as="geometry">
@@ -760,13 +778,13 @@
             <mxRectangle width="410" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-327" value="较快（使用条件编译适配多端，效率是秒级）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-324">
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-327" value="较快（使用条件编译适配多端，效率是十秒级，基本不影响开发）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-324">
           <mxGeometry x="690" width="500" height="41" as="geometry">
             <mxRectangle width="500" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kYMN8gXYN29zYbQPkMFa-328" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-273">
-          <mxGeometry y="694" width="1190.0000000000014" height="42" as="geometry" />
+          <mxGeometry y="734" width="1190.0000000000014" height="42" as="geometry" />
         </mxCell>
         <mxCell id="kYMN8gXYN29zYbQPkMFa-329" value="&lt;span&gt;开发语法&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;fontStyle=1" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-328">
           <mxGeometry width="280" height="42" as="geometry">
@@ -784,7 +802,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kYMN8gXYN29zYbQPkMFa-340" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-273">
-          <mxGeometry y="736" width="1190.0000000000014" height="48" as="geometry" />
+          <mxGeometry y="776" width="1190.0000000000014" height="48" as="geometry" />
         </mxCell>
         <mxCell id="kYMN8gXYN29zYbQPkMFa-341" value="开发工具" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;fontStyle=1" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-340">
           <mxGeometry width="280" height="48" as="geometry">
@@ -802,7 +820,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kYMN8gXYN29zYbQPkMFa-336" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-273">
-          <mxGeometry y="784" width="1190.0000000000014" height="38" as="geometry" />
+          <mxGeometry y="824" width="1190.0000000000014" height="38" as="geometry" />
         </mxCell>
         <mxCell id="kYMN8gXYN29zYbQPkMFa-337" value="&lt;span&gt;开发成本&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;fontStyle=1" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-336">
           <mxGeometry width="280" height="38" as="geometry">
@@ -820,7 +838,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kYMN8gXYN29zYbQPkMFa-332" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-273">
-          <mxGeometry y="822" width="1190.0000000000014" height="40" as="geometry" />
+          <mxGeometry y="862" width="1190.0000000000014" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kYMN8gXYN29zYbQPkMFa-333" value="&lt;span&gt;开发周期&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;fontStyle=1" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-332">
           <mxGeometry width="280" height="40" as="geometry">
@@ -833,24 +851,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kYMN8gXYN29zYbQPkMFa-335" value="&lt;span&gt;短&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-332">
-          <mxGeometry x="690" width="500" height="40" as="geometry">
-            <mxRectangle width="500" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-523" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-273">
-          <mxGeometry y="862" width="1190.0000000000014" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-524" value="混合开发" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;fontStyle=1" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-523">
-          <mxGeometry width="280" height="40" as="geometry">
-            <mxRectangle width="280" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-525" value="不支持" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-523">
-          <mxGeometry x="280" width="410" height="40" as="geometry">
-            <mxRectangle width="410" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-526" value="&lt;a href=&quot;https://uniapp.dcloud.io/hybrid.html&quot;&gt;支持与原生APP与微信小程序混合开发&lt;/a&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-523">
           <mxGeometry x="690" width="500" height="40" as="geometry">
             <mxRectangle width="500" height="40" as="alternateBounds" />
           </mxGeometry>

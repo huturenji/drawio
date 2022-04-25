@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T03:21:04.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="af4Hgz15dd0gNJNi9jRO" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T03:21:53.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="0HMPN1ezg1Zm2AvygJwO" version="17.4.6" type="github">
   <diagram id="JvjC3xm0Hi5qa_1F5xGV" name="第 1 页">
     <mxGraphModel dx="1354" dy="-1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -866,7 +866,7 @@
             <mxRectangle width="330" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-530" value="&lt;a href=&quot;https://uniapp.dcloud.io/select.html&quot;&gt;选型说明：&lt;br&gt;https://uniapp.dcloud.io/select.html&lt;/a&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-527">
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-530" value="uni-app&lt;a href=&quot;https://uniapp.dcloud.io/select.html&quot;&gt;选型说明：&lt;br&gt;https://uniapp.dcloud.io/select.html&lt;/a&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-527">
           <mxGeometry x="610" width="540" height="40" as="geometry">
             <mxRectangle width="540" height="40" as="alternateBounds" />
           </mxGeometry>

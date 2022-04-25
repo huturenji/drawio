@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T02:33:44.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="-5ZdbOljk1EOfdZOfGHl" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T02:36:53.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="gbB1JxTWYKzMPdFey7TX" version="17.4.6" type="github">
   <diagram id="JvjC3xm0Hi5qa_1F5xGV" name="第 1 页">
     <mxGraphModel dx="1354" dy="-1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -758,7 +758,7 @@
             <mxRectangle width="330" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-327" value="较快（使用条件编译适配多端，效率都是秒级）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-324">
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-327" value="较快（使用条件编译适配多端，效率是秒级）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-324">
           <mxGeometry x="610" width="540" height="41" as="geometry">
             <mxRectangle width="540" height="41" as="alternateBounds" />
           </mxGeometry>
@@ -784,17 +784,17 @@
         <mxCell id="kYMN8gXYN29zYbQPkMFa-340" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-273">
           <mxGeometry y="736" width="1150.000000000001" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-341" value="开发周期" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;fontStyle=1" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-340">
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-341" value="开发工具" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;fontStyle=1" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-340">
           <mxGeometry width="280" height="48" as="geometry">
             <mxRectangle width="280" height="48" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-342" value="长" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-340">
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-342" value="&lt;span&gt;微信小程序开发工具&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-340">
           <mxGeometry x="280" width="330" height="48" as="geometry">
             <mxRectangle width="330" height="48" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-343" value="短" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-340">
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-343" value="&lt;span&gt;官方推荐Hbuilder，可以使用其他IDE&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-340">
           <mxGeometry x="610" width="540" height="48" as="geometry">
             <mxRectangle width="540" height="48" as="alternateBounds" />
           </mxGeometry>
@@ -820,17 +820,17 @@
         <mxCell id="kYMN8gXYN29zYbQPkMFa-332" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-273">
           <mxGeometry y="822" width="1150.000000000001" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-333" value="&lt;span&gt;开发工具&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;fontStyle=1" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-332">
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-333" value="&lt;span&gt;开发周期&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;fontStyle=1" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-332">
           <mxGeometry width="280" height="40" as="geometry">
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-334" value="微信小程序开发工具" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-332">
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-334" value="&lt;span&gt;长&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-332">
           <mxGeometry x="280" width="330" height="40" as="geometry">
             <mxRectangle width="330" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-335" value="官方推荐Hbuilder，可以使用其他IDE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-332">
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-335" value="&lt;span&gt;短&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-332">
           <mxGeometry x="610" width="540" height="40" as="geometry">
             <mxRectangle width="540" height="40" as="alternateBounds" />
           </mxGeometry>

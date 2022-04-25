@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T05:35:49.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="A2MJO2_AqUCgyAAojIJX" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T05:36:37.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="LL9epLWsSW6O9mLMAlDq" version="17.4.6" type="github">
   <diagram id="JvjC3xm0Hi5qa_1F5xGV" name="小程序主流开发框架对比">
     <mxGraphModel dx="1354" dy="-1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -724,7 +724,7 @@
             <mxRectangle width="410" height="194" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kYMN8gXYN29zYbQPkMFa-319" value="&lt;div&gt;官网没有对uniapp进行单独版本管理，使用官方推荐开发工具Hbuilder的版本进行管理（最新版本是HBuilderX.3.4.7.20220422）&lt;br&gt;&lt;/div&gt;&lt;div&gt;uni-app 源码版本正式版本v2.0.1-34720220422002 内测版本v3.0.0-alpha-3040720220422004&lt;/div&gt;&lt;div&gt;核心库的版本&lt;/div&gt;&lt;div&gt;@dcloudio/uni-h5 （H5相关）2.0.1-34720220422001&lt;/div&gt;&lt;div&gt;@dcloudio/uni-mp-weixin（微信小程序&lt;span&gt;相关）&lt;/span&gt;&lt;span&gt;2.0.1-34720220422002&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;align=left;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-316">
+        <mxCell id="kYMN8gXYN29zYbQPkMFa-319" value="&lt;div&gt;官网没有对uniapp进行单独版本管理，使用官方推荐开发工具Hbuilder的版本进行管理（最新版本HBuilderX.3.4.7.20220422）&lt;br&gt;&lt;/div&gt;&lt;div&gt;uni-app 源码版本正式版本v2.0.1-34720220422002 内测版本v3.0.0-alpha-3040720220422004&lt;/div&gt;&lt;div&gt;核心库的版本&lt;/div&gt;&lt;div&gt;@dcloudio/uni-h5 （H5相关）2.0.1-34720220422001&lt;/div&gt;&lt;div&gt;@dcloudio/uni-mp-weixin（微信小程序&lt;span&gt;相关）&lt;/span&gt;&lt;span&gt;2.0.1-34720220422002&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=17;align=left;" vertex="1" parent="kYMN8gXYN29zYbQPkMFa-316">
           <mxGeometry x="690" width="500" height="194" as="geometry">
             <mxRectangle width="500" height="194" as="alternateBounds" />
           </mxGeometry>

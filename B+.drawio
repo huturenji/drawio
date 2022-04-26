@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T02:11:46.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="cuygftaY30oNnF_uu2Jj" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-26T02:12:30.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="M7600JG3KfBX_sy-PWcc" version="17.4.6" type="github">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
           <mxGeometry x="320" y="850" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aTw887wbx4HMRg9ZERxj-23" value="以用户token访问商云资源" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1109" width="100" height="60" as="geometry" />
+          <mxGeometry x="320" y="1090" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aTw887wbx4HMRg9ZERxj-25" value="触发警告或者提示" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="140" y="850" width="100" height="60" as="geometry" />
@@ -100,7 +100,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aTw887wbx4HMRg9ZERxj-32" value="&lt;div&gt;Login(platform)&lt;/div&gt;&lt;div&gt;拉起登录页面，用户输入用户名密码登录&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="10" y="560" width="100" height="60" as="geometry" />
+          <mxGeometry x="15" y="560" width="90" height="120" as="geometry" />
         </mxCell>
         <mxCell id="aTw887wbx4HMRg9ZERxj-36" value="其他平台，按照平台特性处理" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1">
           <mxGeometry x="140" y="720" width="100" height="60" as="geometry" />
@@ -147,7 +147,7 @@
           <mxGeometry x="480" y="970" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aTw887wbx4HMRg9ZERxj-52" value="提示用户升级APP" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1109" width="100" height="60" as="geometry" />
+          <mxGeometry x="720" y="1090" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aTw887wbx4HMRg9ZERxj-54" value="用isbridge或者url上渠道参数判断" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
           <mxGeometry x="410" y="240" width="100" height="60" as="geometry" />

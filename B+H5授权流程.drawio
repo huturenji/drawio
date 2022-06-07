@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T03:13:19.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Trt7piELmG2IZOmVRA5z" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T03:16:26.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7wEPIiXwn7oKvII1oDuH" version="18.0.2" type="github">
   <diagram id="l7loPyiOmaxG58bgO53x" name="第 1 页">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -176,7 +176,7 @@
             <mxPoint x="1105" y="1046" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-19" value="15、请求资源Realm/broker/IDP Alias/endpoint(code)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-18" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-19" value="15、请求资源Realm/broker/IDP Alias/endpoint(Code)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-18" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="825" y="1050" as="sourcePoint" />
           </mxGeometry>
@@ -186,7 +186,7 @@
             <mxPoint x="825" y="1126" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-22" value="16、获取token&lt;br&gt;请求IDM Realm/protocol/openid-connect/token(code)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-21" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-54">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-22" value="16、获取token&lt;br&gt;请求IDM Realm/protocol/openid-connect/token(Code)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-21" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-54">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1105" y="1070" as="sourcePoint" />
           </mxGeometry>

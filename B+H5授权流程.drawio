@@ -1,1 +1,211 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T08:00:23.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="PUxkZhLr_2k4qLY06GUJ" version="18.0.2" type="github"><diagram id="l7loPyiOmaxG58bgO53x" name="第 1 页">7Vrbbts4EP0aAt2HBay79CjZcpuiAYyk3d0+0hIjC6FFgaZru1+/Q4myJMuKL4jiIi0QBOTwqplzDoeEkTFebj9ynC/uWUwo0kfxFhkTpOuuZsB/adiVBtOwSkPC07g0abXhMf1JlHGkrOs0JqtWR8EYFWneNkYsy0gkWjbMOdu0uz0x2l41xwnpGB4jTLvWf9NYLNRn6U5t/0TSZFGtrNle2bLEVWf1JasFjtmmYTJCZIw5Y6IsLbdjQqXvKr+U46Y9rfuNcZKJcwbY8634Z3dvPYwWO51+/6gnm89/m2qaH5iu1Rej0EH+WP6FJgpc5HootJFnowAKFgp85JmyD/z3XRROUTBGrhsgPagq3icLhR7yNRQUBW+CfF05Qewqz4I/cllcL+mX9InQNINakBOeLokgHFqoMs9qW7BZpII85jiSQzcAObAtxJJCTYMiwEBgGML3dUpxvkrnxaojsHASrfkq/UEeyKpEm7SytZArjfcokkblGsIF2fY6XduHEihAGOyT76CLGqB7KvoK/q6qbmosaSNlWzRwZDvKiBV+k/3UdYihoKJ8QcRttxvxw9A0HJqzNBPFHqwAWZODCDEuFixhGabNGJ3ltxfg2OtN02o50/COebPrTHMwX3odX9ooNBBE2dUkWVwX+aaijz8pCmCZyibYu2/LAtjBKC1AOlewZ5J1AkJiECVVrX0e1tYmBzBNk0zShzyBA4IVkCXNki9FbQLeDUgW+1IaoTqnLHqWrGDrLCaxAj4Eie/+U9MVle8tSsjttCUZ84S8FNgKdVcjgBOKBbC2LfBHAqqGziRua+RYbRoah/RasTWPiBpUowLchHeNbooNvcu4x5epMVZOWCNu/4XXg9DV3w2hzaPy+IaEdo2OL50GoW0E5xyccLIQIt/Ca7FYc/r+6Fph6mZ0PcCFPRBdjy8zKF2tLsTuJvdgeCa7iDL8DMUHguny90yYnNGVCZM7lCZYv3LCVKLpXH29db5kdfMlrSGvHgJCuhN5uQjgyhBeeBPZF0zZBAIdunISmYAVSZdcAvpAkxnRVPpVt6mU3DmHUiJLH8qGuxjp47L4SCJOxF/vT+KtczOyPoi9bkY2UELmWMdWGVbgza5e9AP5j+oXinPlNdkxBrvajX5l1TcvUX3NvvU1ufvIpL8g+3eTWVeZUagjT0P+SCZL5c3atVtjG8IO+q2eoloq3j+rVqZgJQOBmj7szCmWcYplijXcaXWihPsbQNE0Rb7hw1WA8fQnSCLLvsGdoPq+r/JC3zR8WxF+lz2xpq2YxioEwkOeLid+dwdOhcKr0f26dwrtEO7DnDjVMsMeOVaHYP5s9nseJZp+5QViuBfXbnSs9qMCcN4oMtqxNF6S9Z710t6IlnRtGmHqK4GYMyHY8hxB6KH9aTZbZ+pD31NCI3BVLF/5MVA/Twk682jGiYnKb+5M9Gq0t0/nKD2cxxIGaY6L0EGbHwnGbycGh7AULK+Pra+yMjHsAUXDOKkZ+ttKRvdN13hBMo6J/W1Jb59J+lId3oL0WjvE+rWk907MMzDn7e7t0mwgo8hPg2lxFjgXP6H8wdBlGDp8c7wWQ4fzXI0hqNY/KCi717/KMML/AQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-07T02:17:24.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="ZX_iUJiwZq5Z8EhcETxz" version="18.0.2" type="github">
+  <diagram id="l7loPyiOmaxG58bgO53x" name="第 1 页">
+    <mxGraphModel dx="1087" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-41" value="第三方应用（B+）H5页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="80" width="100" height="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6bxtVyM5R0hy2lYG2gwJ-41" vertex="1">
+          <mxGeometry x="45" y="390" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-69" value="6、判断是否存在token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="6bxtVyM5R0hy2lYG2gwJ-41" target="6bxtVyM5R0hy2lYG2gwJ-68" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-82" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6bxtVyM5R0hy2lYG2gwJ-41" vertex="1">
+          <mxGeometry x="45" y="480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-83" value="7、拼接第三方keycloak Realm登录地址 &lt;br&gt;IP:PORT/auth/realms/资源服务Realm/protocol/openid-connect/auth&lt;br&gt;(redirect_uri&amp;amp;client_id&amp;amp;response_type=code&amp;amp;scope=openid&amp;amp;code_challenge&amp;amp;&lt;br&gt;code_challenge_method=S256&amp;amp;kc_idp_hint=IDP Alias)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="6bxtVyM5R0hy2lYG2gwJ-41" target="6bxtVyM5R0hy2lYG2gwJ-82" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry x="45" y="1430" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-30" value="22、拼接获取token请求地址&lt;br&gt;IP:PORT/auth/realms/资源服务Realm/realms/protocol/openid-connect/token&lt;br&gt;(code,grant_type=authorization_code,clientid,redirect_uri)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-29" parent="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1410" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-53" value="IDM keycloak Realm" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="75" width="100" height="1515" as="geometry" />
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6bxtVyM5R0hy2lYG2gwJ-53" vertex="1">
+          <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-59" value="1、配置第三方应用用于认证的client&lt;br&gt;(clientId,clientSecret)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="6bxtVyM5R0hy2lYG2gwJ-53" target="6bxtVyM5R0hy2lYG2gwJ-58" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="70" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-53">
+          <mxGeometry x="45" y="835" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-53">
+          <mxGeometry x="45" y="875" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-17" value="13、校验cookie是否登录，进行授权" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-16" parent="6bxtVyM5R0hy2lYG2gwJ-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="855" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-53">
+          <mxGeometry x="45" y="995" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-53">
+          <mxGeometry x="45" y="1115" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-54" value="第三方keycloak Realm" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="850" y="75" width="100" height="1625" as="geometry" />
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6bxtVyM5R0hy2lYG2gwJ-54" vertex="1">
+          <mxGeometry x="45" y="160" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-61" value="2、配置IDP&lt;br&gt;①IDM分配的clientId，clientSecret&lt;br&gt;②IDM Realm标准协议接口AuthorizationUrl、TokenUrl、UserInfoUrl、公钥" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="6bxtVyM5R0hy2lYG2gwJ-54" target="6bxtVyM5R0hy2lYG2gwJ-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-54">
+          <mxGeometry x="45" y="585" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-54">
+          <mxGeometry x="45" y="705" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-54">
+          <mxGeometry x="45" y="975" width="10" height="375" as="geometry" />
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-54">
+          <mxGeometry x="45" y="1275" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-28" value="20、创建关联用户或者更新用户" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-27" parent="6bxtVyM5R0hy2lYG2gwJ-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1255" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-54">
+          <mxGeometry x="45" y="1495" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-55" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="100" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-65" value="5、打开第三方应用H5页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="6bxtVyM5R0hy2lYG2gwJ-55" target="6bxtVyM5R0hy2lYG2gwJ-41" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="320" as="sourcePoint" />
+            <mxPoint x="130" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-56" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="80" width="20" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-62" value="3、打开APP" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="6bxtVyM5R0hy2lYG2gwJ-56" target="6bxtVyM5R0hy2lYG2gwJ-55" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="220" as="sourcePoint" />
+            <mxPoint x="90" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-64" value="4、访问第三方应用" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="6bxtVyM5R0hy2lYG2gwJ-56" target="6bxtVyM5R0hy2lYG2gwJ-55" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="280" as="sourcePoint" />
+            <mxPoint x="90" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-7" value="8、location.href=&lt;span style=&quot;text-align: left;&quot;&gt;IP:PORT/auth/realms/资源服务Realm/protocol/openid-connect/auth&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(redirect_uri&amp;amp;client_id&amp;amp;response_type=code&amp;amp;scope=openid&amp;amp;code_challenge&amp;amp;&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;code_challenge_method=S256&amp;amp;kc_idp_hint=IDP Alias)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-6" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-8" value="9、303重定向资源Realm用于第三方IDP登录的接口&lt;br&gt;资源Realm/broker/IDP Alias/login()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-6" parent="1" target="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-10" value="10、资源Realm/boker/IDP alias/login()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-9" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="800" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-11" value="11、303重定向IDM Realm请求登录&lt;br&gt;IDM Realm/protocol/openid-connect/auth(clientId,scope,redirectUrl)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-9" parent="1" target="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-14" value="12、请求IDM Realm/protocol/openid-connect/auth(clientId,scope,redirectUrl)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-13" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105" y="970" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-15" value="14、返回授权code，以及资源Realm broker endpoint地址(code，资源Realm/broker/IDP Alias/endpoint)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-13" parent="1" target="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105" y="1046" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-19" value="15、请求资源Realm/broker/IDP Alias/endpoint(code)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-18" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="1050" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-20" value="21、302重定向第七步中传递的redirectUrl(code)l" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-18" parent="1" target="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="1126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-22" value="16、获取token&lt;br&gt;请求IDM Realm/protocol/openid-connect/token(code)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-21" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105" y="1070" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-23" value="17、返回accesstoken" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-21" parent="1" target="6bxtVyM5R0hy2lYG2gwJ-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105" y="1146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-25" value="18、获取用户信息，请求userInfo接口&lt;br&gt;IDM Realm/protocol/openid-connect/userinfo(accesstoken)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-24" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1185" y="1190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-26" value="19、返回userinfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-24" parent="1" target="6bxtVyM5R0hy2lYG2gwJ-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1185" y="1266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-35" value="23、ajax以POST方式请求获取token接口&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/资源服务Realm/realms/protocol/openid-connect/token&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(code,grant_type=authorization_code,clientid,redirect_uri)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-34" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="1570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-36" value="24、返回token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-34" parent="1" target="6bxtVyM5R0hy2lYG2gwJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="1646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

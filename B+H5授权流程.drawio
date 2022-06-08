@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T03:31:47.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="kAhuFTMtFZGvxXH0-Ypr" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T02:06:18.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="afizf6jIO5H4CzjDldmj" version="18.0.2" type="github">
   <diagram id="l7loPyiOmaxG58bgO53x" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,7 +71,7 @@
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-53">
           <mxGeometry x="45" y="875" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-17" value="13、校验cookie判断是否登录，进行授权" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-16" parent="6bxtVyM5R0hy2lYG2gwJ-53">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-17" value="13、校验cookie判断是否登录，进行授权&lt;br&gt;(如果cookie校验失败，则弹出IDM keycloak登录页面，&lt;br&gt;用户登录后继续14步流程)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-16" parent="6bxtVyM5R0hy2lYG2gwJ-53">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="855" as="sourcePoint" />
             <Array as="points">

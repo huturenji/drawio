@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T09:03:54.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="DY8etJRdBCWpw6tIXj1o" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T09:04:12.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KRnOYS_KR6gIN-JryY5q" version="18.0.2" type="github">
   <diagram id="l7loPyiOmaxG58bgO53x" name="第 1 页">
-    <mxGraphModel dx="2698" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1924" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,7 +154,7 @@
             <mxPoint x="895" y="501" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-8" value="9、303重定向B+ Realm用于第三方IDP授权的接口，使用第三方身份认证&lt;br&gt;realm/broker/IDP Alias/login(&lt;span style=&quot;text-align: left;&quot;&gt;client_id&lt;/span&gt;)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-6" parent="1" target="6bxtVyM5R0hy2lYG2gwJ-41">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-8" value="9、303重定向B+ realm用于第三方IDP授权的接口，使用第三方身份认证&lt;br&gt;realm/broker/IDP Alias/login(&lt;span style=&quot;text-align: left;&quot;&gt;client_id&lt;/span&gt;)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-6" parent="1" target="6bxtVyM5R0hy2lYG2gwJ-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="566" as="targetPoint" />
           </mxGeometry>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T09:36:23.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="GaYIiEf40RUMCHTnu66t" version="18.0.2" type="github">
-  <diagram id="l7loPyiOmaxG58bgO53x" name="第 1 页">
-    <mxGraphModel dx="2152" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-06-08T09:39:20.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Q6SzN44d4GSkc-GHY6V3" version="18.0.2" type="github" pages="2">
+  <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程1">
+    <mxGraphModel dx="1887" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,7 +148,7 @@
         <mxCell id="6bxtVyM5R0hy2lYG2gwJ-56" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-240" y="80" width="20" height="2360" as="geometry" />
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-7" value="8、location.href=&lt;span style=&quot;text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/realm/protocol/openid-connect/auth&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(redirect_uri&amp;amp;client_id&amp;amp;response_type=code&amp;amp;scope=openid&amp;amp;code_challenge&amp;amp;&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;code_challenge_method=S256&amp;amp;kc_idp_hint=IDP Alias)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-7" value="8、location.href=&lt;span style=&quot;text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/realms/realm/protocol/openid-connect/auth&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(redirect_uri&amp;amp;client_id&amp;amp;response_type=code&amp;amp;scope=openid&amp;amp;code_challenge&amp;amp;&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;code_challenge_method=S256&amp;amp;kc_idp_hint=IDP Alias)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="501" as="sourcePoint" />
             <mxPoint x="895" y="501" as="targetPoint" />
@@ -275,6 +275,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bfjFzJn862lABcE6q1Vu" name="B+H5授权流程-浏览器">
+    <mxGraphModel dx="1590" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>

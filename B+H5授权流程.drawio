@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T08:33:49.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6ZH5sDRwnnIqt95mp-Jt" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T08:48:38.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="raGMsM3ZbRvhyn_vNlK6" version="18.0.2" type="github">
   <diagram id="l7loPyiOmaxG58bgO53x" name="第 1 页">
     <mxGraphModel dx="2210" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-41">
           <mxGeometry x="45" y="1126" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-30" value="16、获取15步返回的code" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-29" parent="6bxtVyM5R0hy2lYG2gwJ-41">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-30" value="17、获取15步返回的code" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-29" parent="6bxtVyM5R0hy2lYG2gwJ-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="1136" as="sourcePoint" />
             <Array as="points">
@@ -36,7 +36,7 @@
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-41">
           <mxGeometry x="45" y="1360" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-38" value="19、返回access_token，本地存储access_token,refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-37" parent="6bxtVyM5R0hy2lYG2gwJ-41">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-38" value="20、返回access_token，本地存储access_token,refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-37" parent="6bxtVyM5R0hy2lYG2gwJ-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="1340" as="sourcePoint" />
             <Array as="points">
@@ -90,7 +90,7 @@
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-53">
           <mxGeometry x="45" y="700" width="10" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-17" value="11、校验cookie判断是否登录，进行认证&lt;br&gt;(如果cookie校验失败，则弹出IDM keycloak登录页面，&lt;br&gt;用户登录后继续14步流程)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-16" parent="6bxtVyM5R0hy2lYG2gwJ-53">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-17" value="11、校验cookie判断是否登录，进行认证&lt;br&gt;(如果cookie校验失败，则弹出IDM keycloak登录页面，&lt;br&gt;用户登录后继续12步流程)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-16" parent="6bxtVyM5R0hy2lYG2gwJ-53">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="680" as="sourcePoint" />
             <Array as="points">
@@ -127,7 +127,7 @@
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6bxtVyM5R0hy2lYG2gwJ-54">
           <mxGeometry x="45" y="1001" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-28" value="14、创建关联用户或者更新用户" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-27" parent="6bxtVyM5R0hy2lYG2gwJ-54">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-28" value="15、创建关联用户或者更新用户" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-27" parent="6bxtVyM5R0hy2lYG2gwJ-54">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="981" as="sourcePoint" />
             <Array as="points">
@@ -165,17 +165,18 @@
             <mxPoint x="119.5" y="188" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-7" value="8、location.href=&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/B+Realm/protocol/openid-connect/auth&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(redirect_uri&amp;amp;client_id&amp;amp;response_type=code&amp;amp;scope=openid&amp;amp;code_challenge&amp;amp;&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;code_challenge_method=S256&amp;amp;kc_idp_hint=IDP Alias)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-6" parent="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-7" value="8、location.href=&lt;span style=&quot;text-align: left;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/realm/protocol/openid-connect/auth&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(redirect_uri&amp;amp;client_id&amp;amp;response_type=code&amp;amp;scope=openid&amp;amp;code_challenge&amp;amp;&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;code_challenge_method=S256&amp;amp;kc_idp_hint=IDP Alias)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="398.5" y="490" as="sourcePoint" />
+            <mxPoint x="398.5" y="501" as="sourcePoint" />
+            <mxPoint x="895" y="501" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-8" value="9、303重定向B+ Realm用于第三方IDP授权的接口，使用第三方身份认证&lt;br&gt;B+Realm/broker/IDP Alias/login(&lt;span style=&quot;text-align: left;&quot;&gt;client_id&lt;/span&gt;)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-6" parent="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-8" value="9、303重定向B+ Realm用于第三方IDP授权的接口，使用第三方身份认证&lt;br&gt;realm/broker/IDP Alias/login(&lt;span style=&quot;text-align: left;&quot;&gt;client_id&lt;/span&gt;)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-6" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="566" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-10" value="9-1、请求&amp;nbsp; B+ Realm/broker/IDP Alias/login(&lt;span style=&quot;text-align: left;&quot;&gt;client_id&lt;/span&gt;)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-9" parent="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-10" value="9-1、请求&amp;nbsp; realm/broker/IDP Alias/login(&lt;span style=&quot;text-align: left;&quot;&gt;client_id&lt;/span&gt;)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-9" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="610" as="sourcePoint" />
           </mxGeometry>
@@ -190,47 +191,47 @@
             <mxPoint x="398.5" y="740" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-15" value="11、302重定向回B+Realm/broker/IDP Alias/endpoint(Code)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.141;exitY=0.828;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-16" parent="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-15" value="12、302重定向回B+ realm/broker/IDP Alias/endpoint(Code)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.141;exitY=0.828;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-16" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="792" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-19" value="11-1、请求B+Realm/broker/IDP Alias/endpoint(Code)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-19" value="12-1、请求B+ realm/broker/IDP Alias/endpoint(Code)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="904" as="sourcePoint" />
             <mxPoint x="895" y="904.0000000000011" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-20" value="15、302重定向第8步中传递的&lt;span style=&quot;text-align: left;&quot;&gt;redirect_uri&lt;/span&gt;(code)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-20" value="16、302重定向第8步中传递的&lt;span style=&quot;text-align: left;&quot;&gt;redirect_uri&lt;/span&gt;(code)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="399.07142857142844" y="1137.2499999999995" as="targetPoint" />
             <mxPoint x="895" y="1137.25" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-22" value="12、获取token&lt;br&gt;请求IDM Realm/protocol/openid-connect/token(Code)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-21" parent="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-22" value="13、获取token&lt;br&gt;请求IDM Realm/protocol/openid-connect/token(Code)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-21" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="899.0714285714284" y="924" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-23" value="13、返回idtoken,accesstoken,refreshtoken" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-21" parent="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-23" value="14、返回idtoken,accesstoken,refreshtoken" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-21" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="899.0714285714284" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-35" value="17、ajax以post方式请求获取token接口&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/B+Realm/realms/protocol/openid-connect/token&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(code,grant_type=authorization_code,clientid,redirect_uri)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-34" parent="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-35" value="18、ajax以post方式请求获取token接口&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/B+Realm/realms/protocol/openid-connect/token&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(code,grant_type=authorization_code,clientid,redirect_uri)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UhIwf-_oe5DcTIy6UfvT-34" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="399.07142857142844" y="1301" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-36" value="18、返回第三方access_token,refresh_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-34" parent="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-36" value="19、返回第三方access_token,refresh_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UhIwf-_oe5DcTIy6UfvT-34" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="399.07142857142844" y="1377" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-48" value="B+ H5业务页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="76" width="100" height="2262.5" as="geometry" />
+          <mxGeometry x="160" y="80" width="110" height="2262.5" as="geometry" />
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-98" value="6、获取&lt;span style=&quot;text-align: left;&quot;&gt;access_token()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="UhIwf-_oe5DcTIy6UfvT-48">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-98" value="&lt;div style=&quot;text-align: left;&quot;&gt;6、获取&lt;span style=&quot;text-align: left;&quot;&gt;access_token&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(client_id,realm,&lt;/span&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;auth-server-url)&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="UhIwf-_oe5DcTIy6UfvT-48" target="6bxtVyM5R0hy2lYG2gwJ-41">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="50" y="261" as="sourcePoint" />
             <mxPoint x="199.5" y="261" as="targetPoint" />
@@ -261,11 +262,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-96" value="返回&lt;span style=&quot;text-align: left;&quot;&gt;access_token&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-96" value="返回&lt;span style=&quot;text-align: left;&quot;&gt;access_token&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="UhIwf-_oe5DcTIy6UfvT-48">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="2010" as="sourcePoint" />
             <mxPoint x="248.96153846153857" y="2010" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-105" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;&quot;&gt;1、realm是为了区分不同的产品，UAT与生产环境的realm不一致&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;2、anth-server-url是B+keycloak的域名地址&lt;/span&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="100" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

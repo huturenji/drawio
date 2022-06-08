@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T09:53:03.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="CxFjG3cLogUNmY0jpaRx" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-08T09:53:36.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="sB8D9jc8EO0jUnfMD0z1" version="18.0.2" type="github" pages="2">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程1">
     <mxGraphModel dx="2341" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -284,10 +284,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-1" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;②、access_token&lt;/span&gt;存在且无效，并且refresh_token有效" style="shape=umlFrame;whiteSpace=wrap;html=1;width=107;height=70;" vertex="1" parent="1">
-          <mxGeometry x="286" y="1520" width="1310" height="250" as="geometry" />
+          <mxGeometry x="270" y="1520" width="1310" height="250" as="geometry" />
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-2" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;①、access_token&lt;/span&gt;不存在或者&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;access_token&lt;/span&gt;与refresh_token均无效(无效包括过期、内容非法等)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=90;" vertex="1" parent="1">
-          <mxGeometry x="272" y="379" width="1300" height="1084" as="geometry" />
+          <mxGeometry x="272" y="379" width="1300" height="1121" as="geometry" />
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-3" value="B+ keycloak&lt;br&gt;&amp;nbsp;js-adapter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="80" width="100" height="2270" as="geometry" />
@@ -500,7 +500,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-47" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;③access_token&lt;/span&gt;存在且有效" style="shape=umlFrame;whiteSpace=wrap;html=1;width=107;height=65;" vertex="1" parent="1">
-          <mxGeometry x="281" y="1805" width="1310" height="145" as="geometry" />
+          <mxGeometry x="265" y="1805" width="1310" height="145" as="geometry" />
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-48" value="2、ajax以post方式请求获取token接口&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/realm/realms/protocol/openid-connect/token&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(&lt;span style=&quot;font-size: 11px;&quot;&gt;refresh_token&lt;/span&gt;,grant_type=&lt;span style=&quot;font-size: 11px;&quot;&gt;refresh_token&lt;/span&gt;,client_id)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=-0.017;rounded=0;exitX=0.5;exitY=0.678;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s-siiSZIk8oDTdAX0CZ9-3" target="s-siiSZIk8oDTdAX0CZ9-30">
           <mxGeometry relative="1" as="geometry">

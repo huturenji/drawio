@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T09:51:37.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="n-6iE2FQMWYU6TzX5BH_" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-08T09:53:03.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="CxFjG3cLogUNmY0jpaRx" version="18.0.2" type="github" pages="2">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程1">
     <mxGraphModel dx="2341" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -287,18 +287,18 @@
           <mxGeometry x="286" y="1520" width="1310" height="250" as="geometry" />
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-2" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;①、access_token&lt;/span&gt;不存在或者&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;access_token&lt;/span&gt;与refresh_token均无效(无效包括过期、内容非法等)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=90;" vertex="1" parent="1">
-          <mxGeometry x="285" y="406" width="1300" height="1084" as="geometry" />
+          <mxGeometry x="272" y="379" width="1300" height="1084" as="geometry" />
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-3" value="B+ keycloak&lt;br&gt;&amp;nbsp;js-adapter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="80" width="100" height="2270" as="geometry" />
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-4" value="7、判断本地access_token状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="s-siiSZIk8oDTdAX0CZ9-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="274" as="sourcePoint" />
+            <mxPoint x="50" y="242" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="274" />
+              <mxPoint x="80" y="242" />
             </Array>
-            <mxPoint x="55" y="294" as="targetPoint" />
+            <mxPoint x="55" y="262" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="s-siiSZIk8oDTdAX0CZ9-3">
@@ -325,7 +325,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="s-siiSZIk8oDTdAX0CZ9-3">
-          <mxGeometry x="45" y="294" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="262" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="s-siiSZIk8oDTdAX0CZ9-3">
           <mxGeometry x="45" y="1483" width="10" height="40" as="geometry" />
@@ -493,10 +493,10 @@
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-45" value="B+ H5业务页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="80" width="110" height="2262.5" as="geometry" />
         </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-46" value="&lt;div style=&quot;text-align: left;&quot;&gt;6、获取&lt;span style=&quot;text-align: left;&quot;&gt;access_token&lt;/span&gt;(client_id,realm,auth-server-url)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: center; background-color: rgb(248, 249, 250);&quot;&gt;a、realm是B+keycloak的realm，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(248, 249, 250); font-size: 10px; text-align: center;&quot;&gt;不同环境realm不一样，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 249, 250); font-size: 10px; text-align: center;&quot;&gt;例如UAT为bplusuat，生产环境为plusprod&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: center; background-color: rgb(248, 249, 250);&quot;&gt;b、&lt;/span&gt;&lt;span style=&quot;font-size: 10px; text-align: center; background-color: rgb(248, 249, 250);&quot;&gt;anth-server-url是B+keycloak的域名地址&lt;/span&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="s-siiSZIk8oDTdAX0CZ9-45" target="s-siiSZIk8oDTdAX0CZ9-3">
+        <mxCell id="s-siiSZIk8oDTdAX0CZ9-46" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;6、获取access_token(client_id,realm,auth-server-url)&lt;/div&gt;&lt;div&gt;a、realm是B+keycloak的realm，不同环境realm不一样，&lt;/div&gt;&lt;div&gt;例如UAT为bplusuat，生产环境为plusprod&lt;/div&gt;&lt;div&gt;b、anth-server-url是B+keycloak的域名地址&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="s-siiSZIk8oDTdAX0CZ9-45">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="60" y="261" as="sourcePoint" />
-            <mxPoint x="199.5" y="261" as="targetPoint" />
+            <mxPoint x="60" y="239" as="sourcePoint" />
+            <mxPoint x="379.5" y="239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-47" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;③access_token&lt;/span&gt;存在且有效" style="shape=umlFrame;whiteSpace=wrap;html=1;width=107;height=65;" vertex="1" parent="1">
@@ -557,16 +557,10 @@
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-56" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="630" y="80" width="100" height="1950" as="geometry" />
         </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-59" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;8、打开页面&lt;/span&gt;&lt;span style=&quot;font-size: 11px; text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-align: left;&quot;&gt;/realms/realm/protocol/openid-connect/auth&lt;/span&gt;&lt;br style=&quot;font-size: 11px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-align: left;&quot;&gt;(redirect_uri&amp;amp;client_id&amp;amp;response_type=code&lt;br&gt;&amp;amp;scope=openid&amp;amp;code_challenge&amp;amp;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-align: left;&quot;&gt;code_challenge_method=S256&amp;amp;kc_idp_hint=IDP Alias)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=9;" edge="1" parent="s-siiSZIk8oDTdAX0CZ9-56" target="s-siiSZIk8oDTdAX0CZ9-24">
+        <mxCell id="s-siiSZIk8oDTdAX0CZ9-59" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;8-1、打开页面&lt;/span&gt;&lt;span style=&quot;font-size: 11px; text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-align: left;&quot;&gt;/realms/realm/protocol/openid-connect/auth&lt;/span&gt;&lt;br style=&quot;font-size: 11px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-align: left;&quot;&gt;(redirect_uri&amp;amp;client_id&amp;amp;response_type=code&lt;br&gt;&amp;amp;scope=openid&amp;amp;code_challenge&amp;amp;&lt;/span&gt;&lt;br style=&quot;font-size: 11px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-align: left;&quot;&gt;code_challenge_method=S256&amp;amp;kc_idp_hint=IDP Alias)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=9;" edge="1" parent="s-siiSZIk8oDTdAX0CZ9-56" target="s-siiSZIk8oDTdAX0CZ9-24">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="50" y="420" as="sourcePoint" />
             <mxPoint x="130" y="420" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-58" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=9;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="700" y="320" as="sourcePoint" />
-            <mxPoint x="780" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0ZKT2LgD2NxVRFNizVJh-1" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" edge="1" parent="1" target="s-siiSZIk8oDTdAX0CZ9-3">

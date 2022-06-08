@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T08:56:37.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7Rf7Y_uhfbel6wQPKtMW" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T08:57:58.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="RAuC5C0kZL5KKhVjfS2V" version="18.0.2" type="github">
   <diagram id="l7loPyiOmaxG58bgO53x" name="第 1 页">
     <mxGraphModel dx="2210" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,28 +143,10 @@
           <mxGeometry x="45" y="1539" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6bxtVyM5R0hy2lYG2gwJ-55" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="80" width="100" height="2360" as="geometry" />
-        </mxCell>
-        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-65" value="5、打开第三方应用H5页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="6bxtVyM5R0hy2lYG2gwJ-55" target="UhIwf-_oe5DcTIy6UfvT-48" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="50" y="228" as="sourcePoint" />
-            <mxPoint x="209.5" y="228" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="-120" y="80" width="100" height="2360" as="geometry" />
         </mxCell>
         <mxCell id="6bxtVyM5R0hy2lYG2gwJ-56" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-240" y="80" width="20" height="2360" as="geometry" />
-        </mxCell>
-        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-62" value="3、打开APP" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="6bxtVyM5R0hy2lYG2gwJ-56" target="6bxtVyM5R0hy2lYG2gwJ-55" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="10" y="128" as="sourcePoint" />
-            <mxPoint x="119.5" y="128" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-64" value="4、访问第三方应用" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="6bxtVyM5R0hy2lYG2gwJ-56" target="6bxtVyM5R0hy2lYG2gwJ-55" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="10" y="188" as="sourcePoint" />
-            <mxPoint x="119.5" y="188" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-7" value="8、location.href=&lt;span style=&quot;text-align: left;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/realm/protocol/openid-connect/auth&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(redirect_uri&amp;amp;client_id&amp;amp;response_type=code&amp;amp;scope=openid&amp;amp;code_challenge&amp;amp;&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;code_challenge_method=S256&amp;amp;kc_idp_hint=IDP Alias)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41">
           <mxGeometry relative="1" as="geometry">
@@ -267,6 +249,30 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="2010" as="sourcePoint" />
             <mxPoint x="248.96153846153857" y="2010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-62" value="3、打开APP" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" target="6bxtVyM5R0hy2lYG2gwJ-55" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-230" y="180" as="sourcePoint" />
+            <mxPoint x="-80.49999999999955" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-64" value="4、访问第三方应用" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" target="6bxtVyM5R0hy2lYG2gwJ-55" edge="1" source="6bxtVyM5R0hy2lYG2gwJ-56">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-230" y="267" as="sourcePoint" />
+            <mxPoint x="-80.49999999999955" y="267" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-150" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-65" value="5、打开第三方应用H5页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" target="UhIwf-_oe5DcTIy6UfvT-48" edge="1" source="6bxtVyM5R0hy2lYG2gwJ-55">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-80" y="308" as="sourcePoint" />
+            <mxPoint x="50" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="260" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>

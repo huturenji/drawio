@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T00:41:44.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Cbfc9Q_lvUg-vDHcGL91" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-09T00:45:32.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="emrQUXCdFw9pE4gXQVHR" version="18.0.2" type="github" pages="2">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程-无浏览器">
     <mxGraphModel dx="2489" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,7 +211,7 @@
             <mxPoint x="399.07142857142844" y="1377" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-48" value="B+ H5业务页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-48" value="B+ H5应用页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="80" width="110" height="2262.5" as="geometry" />
         </mxCell>
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-98" value="&lt;div style=&quot;text-align: left;&quot;&gt;6、获取&lt;span style=&quot;text-align: left;&quot;&gt;access_token&lt;/span&gt;(client_id,realm,auth-server-url)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: center; background-color: rgb(248, 249, 250);&quot;&gt;a、realm是B+keycloak的realm，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(248, 249, 250); font-size: 10px; text-align: center;&quot;&gt;不同环境realm不一样，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 249, 250); font-size: 10px; text-align: center;&quot;&gt;例如UAT为bplusuat，生产环境为plusprod&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: center; background-color: rgb(248, 249, 250);&quot;&gt;b、&lt;/span&gt;&lt;span style=&quot;font-size: 10px; text-align: center; background-color: rgb(248, 249, 250);&quot;&gt;anth-server-url是B+keycloak的域名地址&lt;/span&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="UhIwf-_oe5DcTIy6UfvT-48" target="6bxtVyM5R0hy2lYG2gwJ-41" edge="1">
@@ -266,7 +266,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-65" value="5、打开第三方应用H5页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-55" target="UhIwf-_oe5DcTIy6UfvT-48" edge="1">
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-65" value="5、打开第三方B+H5应用页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-55" target="UhIwf-_oe5DcTIy6UfvT-48" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-80" y="308" as="sourcePoint" />
             <mxPoint x="50" y="260" as="targetPoint" />
@@ -490,7 +490,7 @@
             <mxPoint x="399.07142857142844" y="1377" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-45" value="B+ H5业务页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="s-siiSZIk8oDTdAX0CZ9-45" value="B+ H5应用页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="80" width="110" height="2262.5" as="geometry" />
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-46" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;6、获取access_token&lt;/div&gt;&lt;div&gt;(client_id,realm,auth-server-url)&lt;/div&gt;&lt;div&gt;a、realm是B+keycloak的realm，不同环境realm不一样，&lt;/div&gt;&lt;div&gt;例如UAT为bplusuat，生产环境为plusprod&lt;/div&gt;&lt;div&gt;b、anth-server-url是B+keycloak的域名地址&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="s-siiSZIk8oDTdAX0CZ9-45" edge="1" target="s-siiSZIk8oDTdAX0CZ9-3">
@@ -545,7 +545,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-55" value="5、打开第三方应用H5页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="s-siiSZIk8oDTdAX0CZ9-55" value="5、打开第三方B+ H5应用页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-70.5" y="228" as="sourcePoint" />
             <mxPoint x="679.5" y="228" as="targetPoint" />
@@ -563,7 +563,7 @@
             <mxPoint x="130" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fcC5g_MVllTzewNXhIFa-2" value="5-1、打开第三方应用H5页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="s-siiSZIk8oDTdAX0CZ9-56" target="s-siiSZIk8oDTdAX0CZ9-45">
+        <mxCell id="fcC5g_MVllTzewNXhIFa-2" value="5-1、打开第三方B+ H5应用页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="s-siiSZIk8oDTdAX0CZ9-56" target="s-siiSZIk8oDTdAX0CZ9-45">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="50" y="170" as="sourcePoint" />
             <mxPoint x="130" y="170" as="targetPoint" />

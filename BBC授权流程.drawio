@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T09:40:02.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="P-j6QuzEnIJqFU65KHe-" version="18.0.2" type="github"><diagram id="PRKhpi9L-GKNym-bmFVy" name="BBC 授权流程">ddG9DoMgEADgp2FXSLSdrW0XJ4fORK5Cgp5BGm2fvhqglthOHN8dHD+EFd18MXyQFQrQhCZiJuxEKE2zjC7DKk8neYDWKOGLNqjVCzwmXh9KwBgVWkRt1RBjg30PjY2MG4NTXHZHHXcdeAs7qBuu93pTwkqnB5pvfgXVytA5zY4u0/FQ7G8ySi5w+iJWElYYROuibi5Ar48X3sWtO//Jfg5moLc/FizBtvcyiX6IlW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-09T09:42:33.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="U14Bbf4oI3hUoMWuwo1Q" version="18.0.2" type="github">
+  <diagram id="PRKhpi9L-GKNym-bmFVy" name="BBC 授权流程">
+    <mxGraphModel dx="1146" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5mGRBhzcxQp1p8P0sasg-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5mGRBhzcxQp1p8P0sasg-2" value="BBC server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5mGRBhzcxQp1p8P0sasg-4" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5mGRBhzcxQp1p8P0sasg-5" value="B+ keycloak" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

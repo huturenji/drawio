@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T00:37:04.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7B72F16ush9s92iz3fqj" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-09T00:41:17.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="N1ZEm52DoZteB8IcYopG" version="18.0.2" type="github" pages="2">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程-无浏览器">
     <mxGraphModel dx="2489" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -279,7 +279,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bfjFzJn862lABcE6q1Vu" name="B+H5授权流程-浏览器">
-    <mxGraphModel dx="2489" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -480,7 +480,7 @@
             <mxPoint x="1040" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-43" value="18、ajax以post方式请求获取token接口&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/realm/realms/protocol/openid-connect/token&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(code,grant_type=authorization_code,client_id,redirect_uri)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="s-siiSZIk8oDTdAX0CZ9-3" target="s-siiSZIk8oDTdAX0CZ9-29" edge="1">
+        <mxCell id="s-siiSZIk8oDTdAX0CZ9-43" value="18、ajax以post方式请求获取token接口&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/realm/protocol/openid-connect/token&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(code,grant_type=authorization_code,client_id,redirect_uri)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="s-siiSZIk8oDTdAX0CZ9-3" target="s-siiSZIk8oDTdAX0CZ9-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="399.07142857142844" y="1301" as="sourcePoint" />
           </mxGeometry>
@@ -502,7 +502,7 @@
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-47" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;③access_token&lt;/span&gt;存在且有效" style="shape=umlFrame;whiteSpace=wrap;html=1;width=107;height=65;" parent="1" vertex="1">
           <mxGeometry x="265" y="1805" width="1310" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-48" value="2、ajax以post方式请求获取token接口&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/realm/realms/protocol/openid-connect/token&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(&lt;span style=&quot;font-size: 11px;&quot;&gt;refresh_token&lt;/span&gt;,grant_type=&lt;span style=&quot;font-size: 11px;&quot;&gt;refresh_token&lt;/span&gt;,client_id)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=-0.017;rounded=0;exitX=0.5;exitY=0.678;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="s-siiSZIk8oDTdAX0CZ9-3" target="s-siiSZIk8oDTdAX0CZ9-30" edge="1">
+        <mxCell id="s-siiSZIk8oDTdAX0CZ9-48" value="2、ajax以post方式请求获取token接口&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/realm/protocol/openid-connect/token&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(&lt;span style=&quot;font-size: 11px;&quot;&gt;refresh_token&lt;/span&gt;,grant_type=&lt;span style=&quot;font-size: 11px;&quot;&gt;refresh_token&lt;/span&gt;,client_id)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=-0.017;rounded=0;exitX=0.5;exitY=0.678;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="s-siiSZIk8oDTdAX0CZ9-3" target="s-siiSZIk8oDTdAX0CZ9-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="398.96153846153857" y="1618" as="sourcePoint" />
             <mxPoint x="895" y="1618" as="targetPoint" />

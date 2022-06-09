@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T09:59:10.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="tGL2qSP3RweMswtVSAYH" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T09:59:59.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="BnYx1xX9JIiVcfcOE9zI" version="18.0.2" type="github">
   <diagram id="PRKhpi9L-GKNym-bmFVy" name="BBC 授权流程">
     <mxGraphModel dx="1146" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="70" y="501" width="750" height="200" as="geometry" />
         </mxCell>
         <mxCell id="5mGRBhzcxQp1p8P0sasg-10" value="access_token不存在或者access_token与refresh_token均无效" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=80;" vertex="1" parent="1">
-          <mxGeometry x="70" y="210" width="750" height="260" as="geometry" />
+          <mxGeometry x="70" y="210" width="750" height="280" as="geometry" />
         </mxCell>
         <mxCell id="5mGRBhzcxQp1p8P0sasg-1" value="BBC H5" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="40" width="100" height="930" as="geometry" />

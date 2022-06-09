@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T00:31:06.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="rtYRp64hfZvlVMYLaoUf" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-09T00:32:15.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="pRJ_lqQAmx5PUwnNK3sp" version="18.0.2" type="github" pages="2">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程-无浏览器">
     <mxGraphModel dx="2489" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -356,7 +356,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-14" value="IDM keycloak Realm&lt;br&gt;(伴正事keycloak)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1241" y="80" width="100" height="2500" as="geometry" />
+          <mxGeometry x="1290" y="80" width="100" height="2500" as="geometry" />
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="s-siiSZIk8oDTdAX0CZ9-14" vertex="1">
           <mxGeometry x="45" y="63" width="10" height="40" as="geometry" />
@@ -493,10 +493,10 @@
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-45" value="B+ H5业务页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="80" width="110" height="2262.5" as="geometry" />
         </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-46" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;6、获取access_token(client_id,realm,auth-server-url)&lt;/div&gt;&lt;div&gt;a、realm是B+keycloak的realm，不同环境realm不一样，&lt;/div&gt;&lt;div&gt;例如UAT为bplusuat，生产环境为plusprod&lt;/div&gt;&lt;div&gt;b、anth-server-url是B+keycloak的域名地址&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="s-siiSZIk8oDTdAX0CZ9-45" edge="1">
+        <mxCell id="s-siiSZIk8oDTdAX0CZ9-46" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;6、获取access_token&lt;/div&gt;&lt;div&gt;(client_id,realm,auth-server-url)&lt;/div&gt;&lt;div&gt;a、realm是B+keycloak的realm，不同环境realm不一样，&lt;/div&gt;&lt;div&gt;例如UAT为bplusuat，生产环境为plusprod&lt;/div&gt;&lt;div&gt;b、anth-server-url是B+keycloak的域名地址&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="s-siiSZIk8oDTdAX0CZ9-45" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="60" y="239" as="sourcePoint" />
-            <mxPoint x="379.5" y="239" as="targetPoint" />
+            <mxPoint x="60" y="248" as="sourcePoint" />
+            <mxPoint x="379.5" y="248" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s-siiSZIk8oDTdAX0CZ9-47" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;③access_token&lt;/span&gt;存在且有效" style="shape=umlFrame;whiteSpace=wrap;html=1;width=107;height=65;" parent="1" vertex="1">

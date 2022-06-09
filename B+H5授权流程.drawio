@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T00:30:06.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="vADBcRq0nUMcP4vRpxJ2" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-09T00:31:06.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="rtYRp64hfZvlVMYLaoUf" version="18.0.2" type="github" pages="2">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程-无浏览器">
     <mxGraphModel dx="2489" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -530,27 +530,27 @@
             <mxPoint x="248.96153846153857" y="2010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-53" value="3、打开APP" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" target="s-siiSZIk8oDTdAX0CZ9-31" edge="1">
+        <mxCell id="s-siiSZIk8oDTdAX0CZ9-53" value="3、打开APP" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-230" y="180" as="sourcePoint" />
-            <mxPoint x="-80.49999999999955" y="180" as="targetPoint" />
+            <mxPoint x="-230" y="172" as="sourcePoint" />
+            <mxPoint x="-70.5" y="172" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-54" value="4、访问第三方应用" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" source="s-siiSZIk8oDTdAX0CZ9-32" target="s-siiSZIk8oDTdAX0CZ9-31" edge="1">
+        <mxCell id="s-siiSZIk8oDTdAX0CZ9-54" value="4、访问第三方应用" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-230" y="267" as="sourcePoint" />
-            <mxPoint x="-80.49999999999955" y="267" as="targetPoint" />
+            <mxPoint x="-230.5" y="216" as="sourcePoint" />
+            <mxPoint x="-70.5" y="216" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-150" y="240" />
+              <mxPoint x="-150" y="216" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-55" value="5、打开第三方应用H5页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" source="s-siiSZIk8oDTdAX0CZ9-31" target="s-siiSZIk8oDTdAX0CZ9-45" edge="1">
+        <mxCell id="s-siiSZIk8oDTdAX0CZ9-55" value="5、打开第三方应用H5页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-80" y="308" as="sourcePoint" />
-            <mxPoint x="50" y="260" as="targetPoint" />
+            <mxPoint x="-70.5" y="228" as="sourcePoint" />
+            <mxPoint x="679.5" y="228" as="targetPoint" />
             <Array as="points">
-              <mxPoint y="260" />
+              <mxPoint y="228" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -561,6 +561,12 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="50" y="420" as="sourcePoint" />
             <mxPoint x="130" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcC5g_MVllTzewNXhIFa-2" value="5-1、加载页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="s-siiSZIk8oDTdAX0CZ9-56" target="s-siiSZIk8oDTdAX0CZ9-45">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="170" as="sourcePoint" />
+            <mxPoint x="130" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0ZKT2LgD2NxVRFNizVJh-1" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" parent="1" target="s-siiSZIk8oDTdAX0CZ9-3" edge="1">

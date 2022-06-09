@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T02:26:23.682Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KcPQoO6EP4L0HdLkBBCi" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-09T02:30:10.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Gr4J1kTTFjsHr1kbj9rY" version="18.0.2" type="github" pages="2">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程">
     <mxGraphModel dx="2489" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6bxtVyM5R0hy2lYG2gwJ-53" vertex="1">
           <mxGeometry x="45" y="700" width="10" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-17" value="11、校验cookie判断是否登录，进行认证&lt;br&gt;cookie校验失败，&lt;br&gt;则弹出IDM keycloak登录页面，&lt;br&gt;用户登录后继续12步流程)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="6bxtVyM5R0hy2lYG2gwJ-53" target="UhIwf-_oe5DcTIy6UfvT-16" edge="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-17" value="11、校验cookie判断是否登录，进行认证&lt;br&gt;cookie校验失败：&lt;br&gt;1、使用用户名密码登录，则弹出IDM keycloak登录页面，&lt;br&gt;2、使用第三方认证授权，则走第三方认证授权流程&lt;br&gt;用户登录或者认证成功后继续12步流程" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="6bxtVyM5R0hy2lYG2gwJ-53" target="UhIwf-_oe5DcTIy6UfvT-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="680" as="sourcePoint" />
             <Array as="points">
@@ -169,7 +169,7 @@
             <mxPoint x="410" y="685" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-14" value="10-2、请求IDM Realm/protocol/openid-connect/auth(&lt;span style=&quot;text-align: left;&quot;&gt;clientId,scope,redirectUri,response_type=code)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="UhIwf-_oe5DcTIy6UfvT-13" edge="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-14" value="10-2、请求IDM Realm/protocol/openid-connect/auth(&lt;span style=&quot;text-align: left;&quot;&gt;clientId,scope,redirectUri,response_type=code)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="UhIwf-_oe5DcTIy6UfvT-13" edge="1" source="6bxtVyM5R0hy2lYG2gwJ-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="740" as="sourcePoint" />
           </mxGeometry>

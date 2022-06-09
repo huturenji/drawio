@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T00:33:25.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="EbQxIdfaFBE-szOOzoZJ" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-09T00:34:28.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="bdLl_DyUOD8btmp25RDc" version="18.0.2" type="github" pages="2">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程-无浏览器">
     <mxGraphModel dx="2489" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -443,7 +443,7 @@
             <mxPoint x="420" y="610" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-siiSZIk8oDTdAX0CZ9-36" value="10、303重定向IDM Realm请求授权&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;IDM Realm/protocol/openid-connect/auth(clientId,scope,redirectUri,response_type=code)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="s-siiSZIk8oDTdAX0CZ9-25" target="s-siiSZIk8oDTdAX0CZ9-56" edge="1">
+        <mxCell id="s-siiSZIk8oDTdAX0CZ9-36" value="10、303重定向IDM Realm请求授权&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;IDM Realm/protocol/openid-connect/auth&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(clientId,scope,redirectUri,response_type=code)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="s-siiSZIk8oDTdAX0CZ9-25" target="s-siiSZIk8oDTdAX0CZ9-56" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="685" as="targetPoint" />
           </mxGeometry>

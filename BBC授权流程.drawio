@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T01:36:50.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6iMcReCOGsOZiMbrQS_o" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T05:13:22.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="618kxVABZRcBA0FlnPIY" version="18.0.2" type="github">
   <diagram id="PRKhpi9L-GKNym-bmFVy" name="BBC 授权流程">
-    <mxGraphModel dx="1278" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,7 +27,7 @@
         <mxCell id="5mGRBhzcxQp1p8P0sasg-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="5mGRBhzcxQp1p8P0sasg-1" vertex="1">
           <mxGeometry x="45" y="520" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5mGRBhzcxQp1p8P0sasg-23" value="5、本地存储access_token与refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="5mGRBhzcxQp1p8P0sasg-1" target="5mGRBhzcxQp1p8P0sasg-22" edge="1">
+        <mxCell id="5mGRBhzcxQp1p8P0sasg-23" value="7、本地存储access_token与refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="5mGRBhzcxQp1p8P0sasg-1" target="5mGRBhzcxQp1p8P0sasg-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="500" as="sourcePoint" />
             <Array as="points">
@@ -57,6 +57,17 @@
         <mxCell id="5mGRBhzcxQp1p8P0sasg-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="5mGRBhzcxQp1p8P0sasg-2" vertex="1">
           <mxGeometry x="45" y="739" width="10" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="UMDR8JZZ9q2jLritagZ1-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5mGRBhzcxQp1p8P0sasg-2">
+          <mxGeometry x="50" y="430" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UMDR8JZZ9q2jLritagZ1-5" value="6.1、使用publicKey校验B+ token&lt;br&gt;6.2、生成BBCaccess_token与refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="UMDR8JZZ9q2jLritagZ1-4" parent="5mGRBhzcxQp1p8P0sasg-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="410" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5mGRBhzcxQp1p8P0sasg-4" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="20" height="1180" as="geometry" />
         </mxCell>
@@ -68,6 +79,9 @@
         </mxCell>
         <mxCell id="5mGRBhzcxQp1p8P0sasg-5" value="B+ keycloak" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="40" width="100" height="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="UMDR8JZZ9q2jLritagZ1-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5mGRBhzcxQp1p8P0sasg-5">
+          <mxGeometry x="45" y="310" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5mGRBhzcxQp1p8P0sasg-11" value="B+keycloak&lt;br&gt;js-adapter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="40" width="100" height="1160" as="geometry" />
@@ -122,6 +136,16 @@
             <Array as="points">
               <mxPoint x="225" y="1019" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMDR8JZZ9q2jLritagZ1-2" value="5、获取getPublickey()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="UMDR8JZZ9q2jLritagZ1-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMDR8JZZ9q2jLritagZ1-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=0.98;entryY=0.521;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="UMDR8JZZ9q2jLritagZ1-1" parent="1" target="5mGRBhzcxQp1p8P0sasg-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="426" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

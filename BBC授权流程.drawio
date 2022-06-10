@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T05:13:47.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="-poBcjwaKWcV2HWz4Uh0" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T05:14:19.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="4grDn1anwQQXjfnHmFip" version="18.0.2" type="github">
   <diagram id="PRKhpi9L-GKNym-bmFVy" name="BBC 授权流程">
     <mxGraphModel dx="1278" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="70" y="750" width="750" height="200" as="geometry" />
         </mxCell>
         <mxCell id="5mGRBhzcxQp1p8P0sasg-10" value="access_token不存在或者access_token与refresh_token均无效" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=80;" parent="1" vertex="1">
-          <mxGeometry x="70" y="210" width="750" height="400" as="geometry" />
+          <mxGeometry x="70" y="210" width="750" height="480" as="geometry" />
         </mxCell>
         <mxCell id="5mGRBhzcxQp1p8P0sasg-1" value="BBC H5" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="40" width="100" height="1180" as="geometry" />
@@ -25,15 +25,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5mGRBhzcxQp1p8P0sasg-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="5mGRBhzcxQp1p8P0sasg-1" vertex="1">
-          <mxGeometry x="45" y="520" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="590" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5mGRBhzcxQp1p8P0sasg-23" value="7、本地存储access_token与refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="5mGRBhzcxQp1p8P0sasg-1" target="5mGRBhzcxQp1p8P0sasg-22" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="500" as="sourcePoint" />
+            <mxPoint x="45" y="570" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="45" y="500" />
-              <mxPoint x="75" y="500" />
-              <mxPoint x="75" y="520" />
+              <mxPoint x="45" y="570" />
+              <mxPoint x="75" y="570" />
+              <mxPoint x="75" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -52,7 +52,7 @@
           <mxGeometry x="530" y="40" width="100" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="5mGRBhzcxQp1p8P0sasg-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="5mGRBhzcxQp1p8P0sasg-2" vertex="1">
-          <mxGeometry x="45" y="290" width="10" height="190" as="geometry" />
+          <mxGeometry x="45" y="290" width="10" height="260" as="geometry" />
         </mxCell>
         <mxCell id="5mGRBhzcxQp1p8P0sasg-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="5mGRBhzcxQp1p8P0sasg-2" vertex="1">
           <mxGeometry x="45" y="739" width="10" height="70" as="geometry" />
@@ -143,7 +143,7 @@
             <mxPoint x="580" y="350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UMDR8JZZ9q2jLritagZ1-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=0.98;entryY=0.521;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="UMDR8JZZ9q2jLritagZ1-1" parent="1" target="5mGRBhzcxQp1p8P0sasg-27">
+        <mxCell id="UMDR8JZZ9q2jLritagZ1-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="UMDR8JZZ9q2jLritagZ1-1" parent="1" target="5mGRBhzcxQp1p8P0sasg-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="685" y="426" as="targetPoint" />
           </mxGeometry>

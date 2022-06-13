@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T07:11:09.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="frHIL6UBAzPRG6kOTJQl" version="18.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-13T07:12:12.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="YtOuk2bjZ7gT4i_rYA75" version="18.0.2" type="github" pages="6">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1083,12 +1083,12 @@
             <mxPoint x="655" y="686" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KMcqViHh62VatrPFtw8P-28" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="KMcqViHh62VatrPFtw8P-27" parent="1" source="KMcqViHh62VatrPFtw8P-24">
+        <mxCell id="KMcqViHh62VatrPFtw8P-28" value="12、请求tabbar接口v3/system/front/deco/list(type:tabbar)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="KMcqViHh62VatrPFtw8P-27" parent="1" source="KMcqViHh62VatrPFtw8P-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="655" y="650" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KMcqViHh62VatrPFtw8P-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="KMcqViHh62VatrPFtw8P-27" parent="1" target="zVF8H8qi7Ot_QbWzzPcG-3">
+        <mxCell id="KMcqViHh62VatrPFtw8P-29" value="13、返回tabbar信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="KMcqViHh62VatrPFtw8P-27" parent="1" target="zVF8H8qi7Ot_QbWzzPcG-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="655" y="726" as="targetPoint" />
           </mxGeometry>

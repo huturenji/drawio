@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T06:36:17.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="ictaV0Fkx-m6pTNF0Mg2" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T06:36:46.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="FwsXuCUYDmPw3J4lG1BM" version="18.0.2" type="github">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程">
     <mxGraphModel dx="2105" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="286" y="1520" width="1310" height="250" as="geometry" />
         </mxCell>
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-64" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;①、access_token&lt;/span&gt;不存在或者&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;access_token&lt;/span&gt;与refresh_token均无效(无效包括过期、内容非法等)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=90;" parent="1" vertex="1">
-          <mxGeometry x="285" y="434" width="1300" height="1066" as="geometry" />
+          <mxGeometry x="285" y="434" width="1300" height="1026" as="geometry" />
         </mxCell>
         <mxCell id="6bxtVyM5R0hy2lYG2gwJ-41" value="B+ keycloak&lt;br&gt;&amp;nbsp;js-adapter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="80" width="100" height="2270" as="geometry" />
@@ -23,25 +23,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6bxtVyM5R0hy2lYG2gwJ-41" vertex="1">
-          <mxGeometry x="45" y="1126" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="1089" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-30" value="17、获取16步返回的code" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.283;entryY=0.478;entryDx=0;entryDy=0;entryPerimeter=0;" parent="6bxtVyM5R0hy2lYG2gwJ-41" target="UhIwf-_oe5DcTIy6UfvT-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="1136" as="sourcePoint" />
+            <mxPoint x="50" y="1099" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="75" y="1136" />
-              <mxPoint x="75" y="1145" />
+              <mxPoint x="75" y="1099" />
+              <mxPoint x="75" y="1108" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6bxtVyM5R0hy2lYG2gwJ-41" vertex="1">
-          <mxGeometry x="45" y="1360" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="1320" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-38" value="20、返回access_token，本地存储access_token,refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="6bxtVyM5R0hy2lYG2gwJ-41" target="UhIwf-_oe5DcTIy6UfvT-37" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="1340" as="sourcePoint" />
+            <mxPoint x="45" y="1300" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="75" y="1340" />
+              <mxPoint x="75" y="1300" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -137,7 +137,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6bxtVyM5R0hy2lYG2gwJ-54" vertex="1">
-          <mxGeometry x="45" y="1221" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="1180" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-89" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6bxtVyM5R0hy2lYG2gwJ-54" vertex="1">
           <mxGeometry x="45" y="1539" width="10" height="60" as="geometry" />

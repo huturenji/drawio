@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T06:43:06.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="XCaW8-9KcE5yT1DevwSN" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T06:46:42.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="pnC_8byElYt8lfh9wXMM" version="18.0.2" type="github">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程">
     <mxGraphModel dx="2105" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
             <mxPoint x="410" y="685" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-14" value="10-2、浏览器重定向IDM Realm/protocol/openid-connect/auth(&lt;span style=&quot;text-align: left;&quot;&gt;clientId,scope,redirectUri,response_type=code)&lt;br&gt;&lt;/span&gt;请求IDM的方法进行认证授权&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41" target="UhIwf-_oe5DcTIy6UfvT-13" edge="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-14" value="10-2、浏览器重定向IDM Realm/protocol/openid-connect/auth(&lt;span style=&quot;text-align: left;&quot;&gt;clientId,scope,redirectUri,response_type=code)&lt;br&gt;&lt;/span&gt;请求IDM进行认证授权&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41" target="UhIwf-_oe5DcTIy6UfvT-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="740" as="sourcePoint" />
           </mxGeometry>

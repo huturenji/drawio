@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T09:44:38.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="EQQ31opEFiBX8ZC70jAa" version="18.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-13T09:45:50.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="WZVWVNaG41MiGi58UHuM" version="18.0.2" type="github" pages="6">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
     <mxGraphModel dx="1038" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -964,7 +964,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uwRl8bb9yUpSK8Ik3agc" name="首页数据加载流程">
-    <mxGraphModel dx="716" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1152,17 +1152,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0i6_a1Ro_KSac0QsbcWk-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-6">
-          <mxGeometry x="45" y="590" width="10" height="230" as="geometry" />
-        </mxCell>
         <mxCell id="0i6_a1Ro_KSac0QsbcWk-13" value="BBC-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="680" y="40" width="100" height="890" as="geometry" />
         </mxCell>
         <mxCell id="0i6_a1Ro_KSac0QsbcWk-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-13">
           <mxGeometry x="45" y="310" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0i6_a1Ro_KSac0QsbcWk-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-13">
-          <mxGeometry x="45" y="610" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0i6_a1Ro_KSac0QsbcWk-16" value="浏览器缓存组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="40" width="100" height="890" as="geometry" />
@@ -1204,26 +1198,6 @@
         <mxCell id="0i6_a1Ro_KSac0QsbcWk-24" value="7、返回装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-14" target="0i6_a1Ro_KSac0QsbcWk-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="655" y="446" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0i6_a1Ro_KSac0QsbcWk-25" value="11、获取tabbar信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-3" target="0i6_a1Ro_KSac0QsbcWk-12">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="655" y="610" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0i6_a1Ro_KSac0QsbcWk-26" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-12" target="0i6_a1Ro_KSac0QsbcWk-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="655" y="686" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0i6_a1Ro_KSac0QsbcWk-27" value="12、请求tabbar接口v3/system/front/deco/list(type:tabbar)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-12" target="0i6_a1Ro_KSac0QsbcWk-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="655" y="650" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0i6_a1Ro_KSac0QsbcWk-28" value="13、返回tabbar信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-15" target="0i6_a1Ro_KSac0QsbcWk-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="655" y="726" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

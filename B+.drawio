@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T07:12:12.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="YtOuk2bjZ7gT4i_rYA75" version="18.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-13T07:13:23.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="yJuxZjnUsg783M8Ob67P" version="18.0.2" type="github" pages="6">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -978,7 +978,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zVF8H8qi7Ot_QbWzzPcG-2" value="BBC首页" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="40" width="100" height="850" as="geometry" />
+          <mxGeometry x="150" y="40" width="100" height="890" as="geometry" />
         </mxCell>
         <mxCell id="KMcqViHh62VatrPFtw8P-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="zVF8H8qi7Ot_QbWzzPcG-2">
           <mxGeometry x="45" y="545" width="10" height="40" as="geometry" />
@@ -992,7 +992,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zVF8H8qi7Ot_QbWzzPcG-3" value="js装修组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="40" width="100" height="840" as="geometry" />
+          <mxGeometry x="330" y="40" width="100" height="890" as="geometry" />
         </mxCell>
         <mxCell id="KMcqViHh62VatrPFtw8P-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="zVF8H8qi7Ot_QbWzzPcG-3">
           <mxGeometry x="45" y="100" width="10" height="400" as="geometry" />
@@ -1023,7 +1023,7 @@
           <mxGeometry x="45" y="590" width="10" height="230" as="geometry" />
         </mxCell>
         <mxCell id="zVF8H8qi7Ot_QbWzzPcG-4" value="BBC-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="680" y="40" width="100" height="850" as="geometry" />
+          <mxGeometry x="680" y="40" width="100" height="890" as="geometry" />
         </mxCell>
         <mxCell id="KMcqViHh62VatrPFtw8P-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="zVF8H8qi7Ot_QbWzzPcG-4">
           <mxGeometry x="45" y="310" width="10" height="80" as="geometry" />
@@ -1032,7 +1032,7 @@
           <mxGeometry x="45" y="610" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KMcqViHh62VatrPFtw8P-4" value="浏览器缓存组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="40" width="100" height="840" as="geometry" />
+          <mxGeometry x="540" y="40" width="100" height="890" as="geometry" />
         </mxCell>
         <mxCell id="KMcqViHh62VatrPFtw8P-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="KMcqViHh62VatrPFtw8P-4">
           <mxGeometry x="45" y="130" width="10" height="80" as="geometry" />

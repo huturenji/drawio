@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T07:24:08.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="JSJ3huxHk6hbo3BGCVWo" version="18.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-13T07:28:15.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="JIsu_8Iow56UuOLXWAnE" version="18.0.2" type="github" pages="6">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
-    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,7 +159,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GpmQN7efJVPM-rqybwJe" name="服务汇小应用信息相关">
-    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -421,7 +421,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3i7UDFSG2ViVvetKlAvk" name="BBC环境">
-    <mxGraphModel dx="1865" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -532,7 +532,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yMwPivaC5PtgvM5rMRzR" name="代码优化">
-    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -983,7 +983,7 @@
         <mxCell id="KMcqViHh62VatrPFtw8P-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="zVF8H8qi7Ot_QbWzzPcG-2">
           <mxGeometry x="45" y="545" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KMcqViHh62VatrPFtw8P-22" value="10、显示装修页面" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="KMcqViHh62VatrPFtw8P-21" parent="zVF8H8qi7Ot_QbWzzPcG-2">
+        <mxCell id="KMcqViHh62VatrPFtw8P-22" value="10、装修数据渲染页面" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="KMcqViHh62VatrPFtw8P-21" parent="zVF8H8qi7Ot_QbWzzPcG-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="520" as="sourcePoint" />
             <Array as="points">
@@ -1102,7 +1102,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0i6_a1Ro_KSac0QsbcWk-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="40" width="20" height="710" as="geometry" />
+          <mxGeometry x="60" y="40" width="20" height="890" as="geometry" />
         </mxCell>
         <mxCell id="0i6_a1Ro_KSac0QsbcWk-2" value="1、打开装修页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="0i6_a1Ro_KSac0QsbcWk-1" target="0i6_a1Ro_KSac0QsbcWk-3">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -1116,7 +1116,7 @@
         <mxCell id="0i6_a1Ro_KSac0QsbcWk-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-3">
           <mxGeometry x="45" y="545" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0i6_a1Ro_KSac0QsbcWk-5" value="10、显示装修页面" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="0i6_a1Ro_KSac0QsbcWk-3" target="0i6_a1Ro_KSac0QsbcWk-4">
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-5" value="10、装修数据渲染页面" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="0i6_a1Ro_KSac0QsbcWk-3" target="0i6_a1Ro_KSac0QsbcWk-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="520" as="sourcePoint" />
             <Array as="points">

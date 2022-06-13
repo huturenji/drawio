@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T06:30:05.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="qYM9lGQ7ab2XQqfZ6ESK" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T06:30:58.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="AH0PC0E8yda8w9bsR23L" version="18.0.2" type="github">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程">
     <mxGraphModel dx="2105" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -257,7 +257,7 @@
             <mxPoint x="-80.49999999999955" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-64" value="4、访问第三方应用" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-56" target="6bxtVyM5R0hy2lYG2gwJ-55" edge="1">
+        <mxCell id="6bxtVyM5R0hy2lYG2gwJ-64" value="4、访问B+应用" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-56" target="6bxtVyM5R0hy2lYG2gwJ-55" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-230" y="267" as="sourcePoint" />
             <mxPoint x="-80.49999999999955" y="267" as="targetPoint" />

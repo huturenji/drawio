@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T06:31:07.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="-kquH_-QG1Q9BrD1UtUq" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T06:32:45.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="mmLUFW-CNDkegbK8sm2y" version="18.0.2" type="github">
   <diagram id="l7loPyiOmaxG58bgO53x" name="B+H5授权流程">
     <mxGraphModel dx="2105" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,29 +154,33 @@
             <mxPoint x="895" y="501" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-8" value="9-1、返回码为303，locaiton值为：realm/broker/IDP Alias/login(&lt;span style=&quot;text-align: left;&quot;&gt;client_id&lt;/span&gt;)&lt;br&gt;通过IDP认证授权" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="UhIwf-_oe5DcTIy6UfvT-6" target="6bxtVyM5R0hy2lYG2gwJ-41" edge="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-8" value="9-1、返回码为303，locaiton值为：realm/broker/IDP Alias/login(&lt;span style=&quot;text-align: left;&quot;&gt;client_id&lt;/span&gt;)&lt;br&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="UhIwf-_oe5DcTIy6UfvT-6" target="6bxtVyM5R0hy2lYG2gwJ-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="566" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-10" value="9-2、浏览器重定向realm/broker/IDP Alias/login(&lt;span style=&quot;text-align: left;&quot;&gt;client_id&lt;/span&gt;)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41" target="UhIwf-_oe5DcTIy6UfvT-9" edge="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-10" value="9-2、浏览器重定向realm/broker/IDP Alias/login(&lt;span style=&quot;text-align: left;&quot;&gt;client_id&lt;/span&gt;)&lt;br&gt;通过IDP认证授权" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41" target="UhIwf-_oe5DcTIy6UfvT-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="610" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-11" value="10-1、返回码为303，location值为：&lt;span style=&quot;text-align: left;&quot;&gt;IDM Realm/protocol/openid-connect/auth&lt;br&gt;(clientId,scope,redirectUri,response_type=code)&lt;br&gt;&lt;/span&gt;向IDM Realm请求授权" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="UhIwf-_oe5DcTIy6UfvT-9" target="6bxtVyM5R0hy2lYG2gwJ-41" edge="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-11" value="10-1、返回码为303，location值为：&lt;span style=&quot;text-align: left;&quot;&gt;IDM Realm/protocol/openid-connect/auth&lt;br&gt;(clientId,scope,redirectUri,response_type=code)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="UhIwf-_oe5DcTIy6UfvT-9" target="6bxtVyM5R0hy2lYG2gwJ-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="685" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-14" value="10-2、浏览器重定向IDM Realm/protocol/openid-connect/auth(&lt;span style=&quot;text-align: left;&quot;&gt;clientId,scope,redirectUri,response_type=code)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41" target="UhIwf-_oe5DcTIy6UfvT-13" edge="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-14" value="10-2、浏览器重定向IDM Realm/protocol/openid-connect/auth(&lt;span style=&quot;text-align: left;&quot;&gt;clientId,scope,redirectUri,response_type=code)&lt;br&gt;&lt;/span&gt;向IDM Realm请求授权&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41" target="UhIwf-_oe5DcTIy6UfvT-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="740" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhIwf-_oe5DcTIy6UfvT-15" value="12-1、返回码为302，location值为：realm/broker/IDP Alias/endpoint(Code)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.141;exitY=0.828;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UhIwf-_oe5DcTIy6UfvT-16" target="6bxtVyM5R0hy2lYG2gwJ-41" edge="1">
+        <mxCell id="UhIwf-_oe5DcTIy6UfvT-15" value="12-1、返回码为302，location值为：realm/broker/IDP Alias/endpoint(Code)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" source="UhIwf-_oe5DcTIy6UfvT-13" target="6bxtVyM5R0hy2lYG2gwJ-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="792" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="810" />
+              <mxPoint x="460" y="810" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="UhIwf-_oe5DcTIy6UfvT-19" value="12-2、浏览器重定向 realm/broker/IDP Alias/endpoint(Code)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="6bxtVyM5R0hy2lYG2gwJ-41" edge="1">

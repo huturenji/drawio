@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T07:13:23.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="yJuxZjnUsg783M8Ob67P" version="18.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-13T07:24:08.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="JSJ3huxHk6hbo3BGCVWo" version="18.0.2" type="github" pages="6">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1097,10 +1097,135 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lrASNiPnowbamrJ7445T" name="装修页面数据加载流程">
-    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="20" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-2" value="1、打开装修页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="0i6_a1Ro_KSac0QsbcWk-1" target="0i6_a1Ro_KSac0QsbcWk-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="70" as="sourcePoint" />
+            <mxPoint x="90" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-3" value="BBC装修页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="100" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-3">
+          <mxGeometry x="45" y="545" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-5" value="10、显示装修页面" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="0i6_a1Ro_KSac0QsbcWk-3" target="0i6_a1Ro_KSac0QsbcWk-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-6" value="js装修组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="100" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-6">
+          <mxGeometry x="45" y="100" width="10" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-6">
+          <mxGeometry x="45" y="260" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-9" value="5、decoInfo存在，则走第9步返回decoInfo" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="0i6_a1Ro_KSac0QsbcWk-6" target="0i6_a1Ro_KSac0QsbcWk-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-6">
+          <mxGeometry x="45" y="450" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-11" value="8.1、返回decoInfo" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="0i6_a1Ro_KSac0QsbcWk-6" target="0i6_a1Ro_KSac0QsbcWk-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="430" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-6">
+          <mxGeometry x="45" y="590" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-13" value="BBC-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="100" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-13">
+          <mxGeometry x="45" y="310" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-13">
+          <mxGeometry x="45" y="610" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-16" value="浏览器缓存组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="40" width="100" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" vertex="1" parent="0i6_a1Ro_KSac0QsbcWk-16">
+          <mxGeometry x="45" y="130" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-18" value="8.2、更新缓存indexDB中的装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="0i6_a1Ro_KSac0QsbcWk-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-160" y="470" as="sourcePoint" />
+            <mxPoint x="50" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-19" value="3、获取indexDB缓存中的装修数据&lt;br&gt;getDBData(decoinfo_topicid)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-6" target="0i6_a1Ro_KSac0QsbcWk-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-20" value="4、返回装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-17" target="0i6_a1Ro_KSac0QsbcWk-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-21" value="2、获取装修数据&lt;br&gt;getDecoInfo(topicid)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-3" target="0i6_a1Ro_KSac0QsbcWk-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-22" value="9、返回装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-7" target="0i6_a1Ro_KSac0QsbcWk-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-23" value="6、获取装修数据v3/system/front/deco/special&lt;br&gt;(type:topic,decoId:topicid)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-6" target="0i6_a1Ro_KSac0QsbcWk-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-24" value="7、返回装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-14" target="0i6_a1Ro_KSac0QsbcWk-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-25" value="11、获取tabbar信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-3" target="0i6_a1Ro_KSac0QsbcWk-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-26" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-12" target="0i6_a1Ro_KSac0QsbcWk-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-27" value="12、请求tabbar接口v3/system/front/deco/list(type:tabbar)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-12" target="0i6_a1Ro_KSac0QsbcWk-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i6_a1Ro_KSac0QsbcWk-28" value="13、返回tabbar信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="0i6_a1Ro_KSac0QsbcWk-15" target="0i6_a1Ro_KSac0QsbcWk-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="726" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

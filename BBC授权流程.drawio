@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T03:12:46.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KxexjDct5Zf0ZkRisixa" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-16T07:14:08.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="mYETmvakaTJSXx11KNsQ" version="18.0.2" type="github" pages="2">
   <diagram id="PRKhpi9L-GKNym-bmFVy" name="BBC 授权流程">
-    <mxGraphModel dx="1278" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,8 +156,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-14" value="协议未同意" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=50;" vertex="1" parent="1">
+          <mxGeometry x="300" y="314.5" width="500" height="375.5" as="geometry" />
+        </mxCell>
         <mxCell id="kFPM8thIuEn5TP6RCzFl-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="80" width="20" height="400" as="geometry" />
+          <mxGeometry x="10" y="80" width="20" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="kFPM8thIuEn5TP6RCzFl-8" value="1、打开B+页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="kFPM8thIuEn5TP6RCzFl-1" target="kFPM8thIuEn5TP6RCzFl-2">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -165,26 +168,107 @@
             <mxPoint x="90" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-20" value="8、用户点击同意协议按钮" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="kFPM8thIuEn5TP6RCzFl-1" target="kFPM8thIuEn5TP6RCzFl-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="470" as="sourcePoint" />
+            <mxPoint x="90" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-26" value="9、用户点击不同意协议按钮" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="kFPM8thIuEn5TP6RCzFl-1" target="kFPM8thIuEn5TP6RCzFl-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="660" as="sourcePoint" />
+            <mxPoint x="90" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kFPM8thIuEn5TP6RCzFl-2" value="B+ H5页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="80" width="100" height="430" as="geometry" />
+          <mxGeometry x="100" y="80" width="100" height="990" as="geometry" />
         </mxCell>
         <mxCell id="kFPM8thIuEn5TP6RCzFl-3" value="js协议组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="80" width="100" height="410" as="geometry" />
+          <mxGeometry x="340" y="80" width="100" height="980" as="geometry" />
         </mxCell>
         <mxCell id="kFPM8thIuEn5TP6RCzFl-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kFPM8thIuEn5TP6RCzFl-3">
-          <mxGeometry x="45" y="100" width="10" height="160" as="geometry" />
+          <mxGeometry x="45" y="100" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kFPM8thIuEn5TP6RCzFl-3">
+          <mxGeometry x="45" y="410" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-18" value="7、弹框方式展示协议列表，只展示第一个协议的摘要信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Rts7a-hfXN6xhlBGUIWo-17" parent="kFPM8thIuEn5TP6RCzFl-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="390" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="kFPM8thIuEn5TP6RCzFl-4" value="B+ server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="80" width="100" height="390" as="geometry" />
+          <mxGeometry x="727" y="80" width="100" height="930" as="geometry" />
         </mxCell>
-        <mxCell id="kFPM8thIuEn5TP6RCzFl-6" value="2、获取协议信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="kFPM8thIuEn5TP6RCzFl-5" parent="1" source="kFPM8thIuEn5TP6RCzFl-2">
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kFPM8thIuEn5TP6RCzFl-4">
+          <mxGeometry x="45" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kFPM8thIuEn5TP6RCzFl-4">
+          <mxGeometry x="45" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kFPM8thIuEn5TP6RCzFl-4">
+          <mxGeometry x="45" y="490" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kFPM8thIuEn5TP6RCzFl-6" value="2、getProtocol(userId,channelId)&lt;br&gt;获取用户是否同意协议" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="kFPM8thIuEn5TP6RCzFl-5" parent="1" source="kFPM8thIuEn5TP6RCzFl-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="315" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kFPM8thIuEn5TP6RCzFl-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="kFPM8thIuEn5TP6RCzFl-5" parent="1" target="kFPM8thIuEn5TP6RCzFl-2">
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-2" value="&lt;br&gt;3、v3/channel/front/getUserConsent(userId,channelId)&lt;br&gt;获取用户是否同意协议" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="Rts7a-hfXN6xhlBGUIWo-1" parent="1" source="kFPM8thIuEn5TP6RCzFl-3">
+          <mxGeometry x="-0.0039" relative="1" as="geometry">
+            <mxPoint x="505" y="180" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-3" value="4、返回用户是否同意协议" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="Rts7a-hfXN6xhlBGUIWo-1" parent="1" target="kFPM8thIuEn5TP6RCzFl-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="315" y="236" as="targetPoint" />
+            <mxPoint x="505" y="256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-6" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="Rts7a-hfXN6xhlBGUIWo-5" parent="1" source="kFPM8thIuEn5TP6RCzFl-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-13" value="5、v3/channel/front/getAppProtocols(channelId)&lt;br&gt;获取渠道下配置的协议列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rts7a-hfXN6xhlBGUIWo-6">
+          <mxGeometry x="-0.0812" y="2" relative="1" as="geometry">
+            <mxPoint x="22" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-7" value="6、返回协议列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="Rts7a-hfXN6xhlBGUIWo-5" parent="1" target="kFPM8thIuEn5TP6RCzFl-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-16" value="协议已同意" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=50;" vertex="1" parent="1">
+          <mxGeometry x="301" y="820" width="500" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-22" value="8-1、v3/channel/front/logUserConsent(userId,channelId)&lt;br&gt;记住用户同意协议" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="Rts7a-hfXN6xhlBGUIWo-21" parent="1" source="kFPM8thIuEn5TP6RCzFl-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-23" value="8-2、返回数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="Rts7a-hfXN6xhlBGUIWo-21" parent="1" target="kFPM8thIuEn5TP6RCzFl-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-24" value="8-3、展示B+H5页面，用户继续浏览业务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="kFPM8thIuEn5TP6RCzFl-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="680" as="sourcePoint" />
+            <mxPoint x="310" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-27" value="9-1，退出B+ H5页面，用户无法浏览器页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="kFPM8thIuEn5TP6RCzFl-3" target="kFPM8thIuEn5TP6RCzFl-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="770" as="sourcePoint" />
+            <mxPoint x="310" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="780" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>

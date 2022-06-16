@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T00:28:06.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Kp75d4H0uGEe_22_wBo7" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-16T03:12:46.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KxexjDct5Zf0ZkRisixa" version="18.0.2" type="github" pages="2">
   <diagram id="PRKhpi9L-GKNym-bmFVy" name="BBC 授权流程">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,10 +152,41 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2AUh6IHHt7lAMZQ43muV" name="B+协议弹框流程">
-    <mxGraphModel dx="1278" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kFPM8thIuEn5TP6RCzFl-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="20" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="kFPM8thIuEn5TP6RCzFl-8" value="1、打开B+页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="kFPM8thIuEn5TP6RCzFl-1" target="kFPM8thIuEn5TP6RCzFl-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="70" as="sourcePoint" />
+            <mxPoint x="90" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFPM8thIuEn5TP6RCzFl-2" value="B+ H5页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="100" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="kFPM8thIuEn5TP6RCzFl-3" value="js协议组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="kFPM8thIuEn5TP6RCzFl-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kFPM8thIuEn5TP6RCzFl-3">
+          <mxGeometry x="45" y="100" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kFPM8thIuEn5TP6RCzFl-4" value="B+ server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="kFPM8thIuEn5TP6RCzFl-6" value="2、获取协议信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="kFPM8thIuEn5TP6RCzFl-5" parent="1" source="kFPM8thIuEn5TP6RCzFl-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFPM8thIuEn5TP6RCzFl-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="kFPM8thIuEn5TP6RCzFl-5" parent="1" target="kFPM8thIuEn5TP6RCzFl-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

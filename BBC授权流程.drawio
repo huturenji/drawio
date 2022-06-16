@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T07:17:51.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="K0J9JNYWx7aKrneIncWf" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-16T07:19:15.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="y3hpOB3MuW7GEqQg-lhe" version="18.0.2" type="github" pages="2">
   <diagram id="PRKhpi9L-GKNym-bmFVy" name="BBC 授权流程">
     <mxGraphModel dx="976" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,7 +195,7 @@
         <mxCell id="Rts7a-hfXN6xhlBGUIWo-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kFPM8thIuEn5TP6RCzFl-3">
           <mxGeometry x="45" y="410" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Rts7a-hfXN6xhlBGUIWo-18" value="7、弹框方式展示协议列表，只展示第一个协议的摘要信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Rts7a-hfXN6xhlBGUIWo-17" parent="kFPM8thIuEn5TP6RCzFl-3">
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-18" value="7、弹框方式展示协议列表，展示第一个协议的摘要信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Rts7a-hfXN6xhlBGUIWo-17" parent="kFPM8thIuEn5TP6RCzFl-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="390" as="sourcePoint" />
             <Array as="points">
@@ -256,13 +256,13 @@
             <mxPoint x="702" y="646" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rts7a-hfXN6xhlBGUIWo-24" value="8-3、展示B+H5页面，用户继续浏览业务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="kFPM8thIuEn5TP6RCzFl-2">
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-24" value="8-3、展示B+H5页面，用户继续浏览B+页面业务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="kFPM8thIuEn5TP6RCzFl-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="680" as="sourcePoint" />
             <mxPoint x="310" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rts7a-hfXN6xhlBGUIWo-27" value="9-1，退出B+ H5页面，用户无法浏览器页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="kFPM8thIuEn5TP6RCzFl-3" target="kFPM8thIuEn5TP6RCzFl-1">
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-27" value="9-1，退出B+ H5页面，用户无法继续浏览B+页面业务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="kFPM8thIuEn5TP6RCzFl-3" target="kFPM8thIuEn5TP6RCzFl-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="770" as="sourcePoint" />
             <mxPoint x="310" y="770" as="targetPoint" />
@@ -271,7 +271,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rts7a-hfXN6xhlBGUIWo-28" value="展示B+H5页面，用户继续浏览业务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-28" value="展示B+H5页面，用户继续浏览B+页面业务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="855" as="sourcePoint" />
             <mxPoint x="149.5" y="855" as="targetPoint" />

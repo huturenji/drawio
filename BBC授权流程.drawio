@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T07:19:15.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="y3hpOB3MuW7GEqQg-lhe" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-16T07:22:27.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="-hX-MHNaCr_xqm00FgI8" version="18.0.2" type="github" pages="2">
   <diagram id="PRKhpi9L-GKNym-bmFVy" name="BBC 授权流程">
     <mxGraphModel dx="976" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kFPM8thIuEn5TP6RCzFl-2" value="B+ H5页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="80" width="100" height="990" as="geometry" />
+          <mxGeometry x="80" y="80" width="100" height="990" as="geometry" />
         </mxCell>
         <mxCell id="kFPM8thIuEn5TP6RCzFl-3" value="js协议组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="80" width="100" height="980" as="geometry" />
@@ -215,7 +215,7 @@
         <mxCell id="Rts7a-hfXN6xhlBGUIWo-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kFPM8thIuEn5TP6RCzFl-4">
           <mxGeometry x="45" y="490" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kFPM8thIuEn5TP6RCzFl-6" value="2、getProtocol(userId,channelId)&lt;br&gt;获取用户是否同意协议" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="kFPM8thIuEn5TP6RCzFl-5" parent="1" source="kFPM8thIuEn5TP6RCzFl-2">
+        <mxCell id="kFPM8thIuEn5TP6RCzFl-6" value="2、getProtocol(userId,channelId)&lt;br&gt;获取用户同意的协议" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="kFPM8thIuEn5TP6RCzFl-5" parent="1" source="kFPM8thIuEn5TP6RCzFl-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="315" y="160" as="sourcePoint" />
           </mxGeometry>
@@ -271,7 +271,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rts7a-hfXN6xhlBGUIWo-28" value="展示B+H5页面，用户继续浏览B+页面业务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+        <mxCell id="Rts7a-hfXN6xhlBGUIWo-28" value="展示B+H5页面，用户继续浏览B+页面业务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="kFPM8thIuEn5TP6RCzFl-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="855" as="sourcePoint" />
             <mxPoint x="149.5" y="855" as="targetPoint" />

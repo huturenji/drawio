@@ -1,1 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T01:34:24.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="18.0.2" etag="5dACHga5YbtUgd1qE6DP" type="github"><diagram id="K3tmlPcJPp-kzl6AVQyI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-17T01:34:49.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="HB_4iG8TOL1zoMxRULjd" version="18.0.2" type="github">
+  <diagram id="K3tmlPcJPp-kzl6AVQyI" name="BBC授权流程">
+    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-1" value="协议已同意" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=50;" vertex="1" parent="1">
+          <mxGeometry x="5" y="820" width="795" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-2" value="协议未同意" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=50;" vertex="1" parent="1">
+          <mxGeometry x="10" y="314.5" width="790" height="485.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="80" width="20" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-4" value="1、打开B+页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="IdbaqCRXDyQclCI0tgIo-3" target="IdbaqCRXDyQclCI0tgIo-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="70" as="sourcePoint" />
+            <mxPoint x="90" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-5" value="8、用户点击同意协议按钮" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="IdbaqCRXDyQclCI0tgIo-3" target="IdbaqCRXDyQclCI0tgIo-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="470" as="sourcePoint" />
+            <mxPoint x="90" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-6" value="9、用户点击不同意协议按钮" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="IdbaqCRXDyQclCI0tgIo-3" target="IdbaqCRXDyQclCI0tgIo-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="660" as="sourcePoint" />
+            <mxPoint x="90" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-7" value="B+ H5页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-8" value="js协议组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="100" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IdbaqCRXDyQclCI0tgIo-8">
+          <mxGeometry x="45" y="100" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IdbaqCRXDyQclCI0tgIo-8">
+          <mxGeometry x="45" y="410" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-11" value="7、弹框方式展示协议列表，展示第一个协议的摘要信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="IdbaqCRXDyQclCI0tgIo-8" target="IdbaqCRXDyQclCI0tgIo-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-12" value="B+ server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="727" y="80" width="100" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IdbaqCRXDyQclCI0tgIo-12">
+          <mxGeometry x="45" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IdbaqCRXDyQclCI0tgIo-12">
+          <mxGeometry x="45" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IdbaqCRXDyQclCI0tgIo-12">
+          <mxGeometry x="45" y="490" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-16" value="2、getProtocol(userId,channelId)&lt;br&gt;获取用户协议信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="IdbaqCRXDyQclCI0tgIo-7" target="IdbaqCRXDyQclCI0tgIo-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-17" value="&lt;br&gt;3、v3/channel/front/getUserConsent(userId,channelId)&lt;br&gt;获取用户是否同意协议" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="IdbaqCRXDyQclCI0tgIo-8" target="IdbaqCRXDyQclCI0tgIo-13">
+          <mxGeometry x="-0.0039" relative="1" as="geometry">
+            <mxPoint x="505" y="180" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-18" value="4、返回用户是否同意协议" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="IdbaqCRXDyQclCI0tgIo-13" target="IdbaqCRXDyQclCI0tgIo-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-19" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="IdbaqCRXDyQclCI0tgIo-8" target="IdbaqCRXDyQclCI0tgIo-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-20" value="5、v3/channel/front/getAppProtocols(channelId)&lt;br&gt;获取渠道下配置的协议列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IdbaqCRXDyQclCI0tgIo-19">
+          <mxGeometry x="-0.0812" y="2" relative="1" as="geometry">
+            <mxPoint x="22" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-21" value="6、返回协议列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="IdbaqCRXDyQclCI0tgIo-14" target="IdbaqCRXDyQclCI0tgIo-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-22" value="8-1、v3/channel/front/logUserConsent(userId,channelId)&lt;br&gt;记住用户同意协议" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="IdbaqCRXDyQclCI0tgIo-8" target="IdbaqCRXDyQclCI0tgIo-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-23" value="8-2、返回数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="IdbaqCRXDyQclCI0tgIo-15" target="IdbaqCRXDyQclCI0tgIo-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-24" value="8-3、展示B+H5页面，用户继续浏览B+页面业务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="IdbaqCRXDyQclCI0tgIo-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="680" as="sourcePoint" />
+            <mxPoint x="310" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-25" value="9-1，退出B+ H5页面，用户无法继续浏览B+页面业务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="IdbaqCRXDyQclCI0tgIo-8" target="IdbaqCRXDyQclCI0tgIo-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="770" as="sourcePoint" />
+            <mxPoint x="310" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-26" value="展示B+H5页面，用户继续浏览B+页面业务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="IdbaqCRXDyQclCI0tgIo-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="855" as="sourcePoint" />
+            <mxPoint x="149.5" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

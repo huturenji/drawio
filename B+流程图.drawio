@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T01:39:20.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="UbGiL4S9cHl-hWA4Atg2" version="18.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-17T01:47:55.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="TY9kd3_p768-CY3XzZOi" version="18.0.2" type="github" pages="5">
   <diagram id="Xu6wsOoYvgIS-8KDxQQB" name="H5授权方式">
     <mxGraphModel dx="2903" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -577,7 +577,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yCsMQaYWjG8FCC5ZAWW1-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="40" width="20" height="710" as="geometry" />
+          <mxGeometry x="60" y="40" width="20" height="890" as="geometry" />
         </mxCell>
         <mxCell id="yCsMQaYWjG8FCC5ZAWW1-2" value="1、打开首页" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="yCsMQaYWjG8FCC5ZAWW1-1" target="yCsMQaYWjG8FCC5ZAWW1-3">
           <mxGeometry width="80" relative="1" as="geometry">

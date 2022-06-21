@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T08:57:22.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="auB8t1u_doQRWNcDbE2X" version="18.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-21T01:22:43.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Ym8RkCsiKzda5zr5y5FH" version="18.0.2" type="github" pages="5">
   <diagram id="Xu6wsOoYvgIS-8KDxQQB" name="H5授权方式">
     <mxGraphModel dx="2105" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -598,7 +598,7 @@
         <mxCell id="yCsMQaYWjG8FCC5ZAWW1-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" parent="yCsMQaYWjG8FCC5ZAWW1-3" vertex="1">
           <mxGeometry x="45" y="796" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-5" value="10、装修数据渲染页面" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="yCsMQaYWjG8FCC5ZAWW1-3" target="yCsMQaYWjG8FCC5ZAWW1-4" edge="1">
+        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-5" value="11、装修数据渲染页面" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="yCsMQaYWjG8FCC5ZAWW1-3" target="yCsMQaYWjG8FCC5ZAWW1-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="771" as="sourcePoint" />
             <Array as="points">
@@ -615,7 +615,7 @@
         <mxCell id="yCsMQaYWjG8FCC5ZAWW1-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" parent="yCsMQaYWjG8FCC5ZAWW1-6" vertex="1">
           <mxGeometry x="45" y="511" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-9" value="5、decoInfo存在，则走第9步返回decoInfo" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="yCsMQaYWjG8FCC5ZAWW1-6" target="yCsMQaYWjG8FCC5ZAWW1-8" edge="1">
+        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-9" value="6、decoInfo存在，则走第10步返回decoInfo" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="yCsMQaYWjG8FCC5ZAWW1-6" target="yCsMQaYWjG8FCC5ZAWW1-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="491" as="sourcePoint" />
             <Array as="points">
@@ -626,7 +626,7 @@
         <mxCell id="yCsMQaYWjG8FCC5ZAWW1-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" parent="yCsMQaYWjG8FCC5ZAWW1-6" vertex="1">
           <mxGeometry x="45" y="701" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-11" value="8.1、返回decoInfo" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="yCsMQaYWjG8FCC5ZAWW1-6" target="yCsMQaYWjG8FCC5ZAWW1-10" edge="1">
+        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-11" value="9.1、返回decoInfo" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="yCsMQaYWjG8FCC5ZAWW1-6" target="yCsMQaYWjG8FCC5ZAWW1-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="681" as="sourcePoint" />
             <Array as="points">
@@ -655,38 +655,38 @@
         <mxCell id="yCsMQaYWjG8FCC5ZAWW1-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=none;" parent="yCsMQaYWjG8FCC5ZAWW1-16" vertex="1">
           <mxGeometry x="45" y="381" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-18" value="8.2、更新缓存indexDB中的装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="yCsMQaYWjG8FCC5ZAWW1-16" edge="1">
+        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-18" value="9.2、更新缓存indexDB中的装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="yCsMQaYWjG8FCC5ZAWW1-16" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-160" y="721" as="sourcePoint" />
             <mxPoint x="50" y="721" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-19" value="3、获取indexDB缓存中的装修数据&lt;br&gt;getDBData(decoinfo_home)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="yCsMQaYWjG8FCC5ZAWW1-6" target="yCsMQaYWjG8FCC5ZAWW1-17" edge="1">
+        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-19" value="5、获取indexDB缓存中的装修数据&lt;br&gt;getDBData(decoinfo_home)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="yCsMQaYWjG8FCC5ZAWW1-6" target="yCsMQaYWjG8FCC5ZAWW1-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="379.5" y="421.0000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-20" value="4、返回装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="yCsMQaYWjG8FCC5ZAWW1-17" edge="1">
+        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-20" value="返回装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="yCsMQaYWjG8FCC5ZAWW1-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="497" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-21" value="2、获取装修数据&lt;br&gt;getDecoInfo(home)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="yCsMQaYWjG8FCC5ZAWW1-7" edge="1">
+        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-21" value="4、获取装修数据&lt;br&gt;getDecoInfo(home)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="yCsMQaYWjG8FCC5ZAWW1-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="199.5" y="391.0000000000008" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-22" value="9、返回装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="yCsMQaYWjG8FCC5ZAWW1-7" edge="1">
+        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-22" value="10、返回装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="yCsMQaYWjG8FCC5ZAWW1-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="199.5" y="770.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-23" value="6、获取装修数据v3/system/front/deco/index" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="yCsMQaYWjG8FCC5ZAWW1-14" edge="1">
+        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-23" value="7、获取装修数据v3/system/front/deco/index" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="yCsMQaYWjG8FCC5ZAWW1-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="379.5" y="601.0000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-24" value="7、返回装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="yCsMQaYWjG8FCC5ZAWW1-14" edge="1">
+        <mxCell id="yCsMQaYWjG8FCC5ZAWW1-24" value="8、返回装修数据decoInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="yCsMQaYWjG8FCC5ZAWW1-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="379.5" y="677" as="targetPoint" />
           </mxGeometry>

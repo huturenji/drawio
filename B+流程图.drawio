@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T03:22:39.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="AM_yriElLKFRdDulSlMp" version="20.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-24T03:30:50.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Nkk9u8bUD0CM5g0DYmL8" version="20.0.2" type="github" pages="6">
   <diagram id="Xu6wsOoYvgIS-8KDxQQB" name="H5授权方式">
     <mxGraphModel dx="1911" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -298,20 +298,20 @@
     </mxGraphModel>
   </diagram>
   <diagram name="H5授权方式-游客" id="FFQqMXxsjTrdTokrD7uu">
-    <mxGraphModel dx="1911" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2182" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="q1fy_rrpDw4296sdhuRr-0" />
         <mxCell id="q1fy_rrpDw4296sdhuRr-1" parent="q1fy_rrpDw4296sdhuRr-0" />
         <mxCell id="q1fy_rrpDw4296sdhuRr-2" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;②、access_token&lt;/span&gt;存在且无效，并且refresh_token有效" style="shape=umlFrame;whiteSpace=wrap;html=1;width=107;height=70;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-1">
-          <mxGeometry x="281" y="1511" width="1310" height="259" as="geometry" />
+          <mxGeometry x="281" y="765" width="1310" height="259" as="geometry" />
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-3" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;①、access_token&lt;/span&gt;不存在或者&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;access_token&lt;/span&gt;与refresh_token均无效(无效包括过期、内容非法等)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=90;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-1">
-          <mxGeometry x="285" y="434" width="1300" height="506" as="geometry" />
+          <mxGeometry x="285" y="434" width="1300" height="286" as="geometry" />
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-4" value="B+ keycloak&lt;br&gt;&amp;nbsp;js-adapter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-1">
           <mxGeometry x="350" y="80" width="100" height="2270" as="geometry" />
         </mxCell>
-        <mxCell id="q1fy_rrpDw4296sdhuRr-5" value="7、判断本地access_token状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-4">
+        <mxCell id="q1fy_rrpDw4296sdhuRr-5" value="5、判断本地access_token状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="274" as="sourcePoint" />
             <Array as="points">
@@ -324,24 +324,35 @@
           <mxGeometry x="45" y="294" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-4">
-          <mxGeometry x="45" y="1483" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="737" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-12" value="1、获取本地存储的refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-4" target="q1fy_rrpDw4296sdhuRr-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="1453" as="sourcePoint" />
+            <mxPoint x="45" y="707" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="75" y="1453" />
+              <mxPoint x="75" y="707" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-4">
-          <mxGeometry x="45" y="1640" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="894" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-14" value="4、返回access_token，更新本地存储的access_token与refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-4" target="q1fy_rrpDw4296sdhuRr-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="53" y="1620" as="sourcePoint" />
+            <mxPoint x="53" y="874" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="83" y="1620" />
+              <mxPoint x="83" y="874" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Afojko4hM1TsK6p7Q89W-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-4">
+          <mxGeometry x="45" y="580" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Afojko4hM1TsK6p7Q89W-2" value="8、返回access_token，本地存储access_token,refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Afojko4hM1TsK6p7Q89W-1" parent="q1fy_rrpDw4296sdhuRr-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -349,7 +360,10 @@
           <mxGeometry x="850" y="80" width="100" height="2490" as="geometry" />
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-22">
-          <mxGeometry x="45" y="1539" width="10" height="60" as="geometry" />
+          <mxGeometry x="45" y="793" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H6xVQ_o2_Sp40MR1BOMA-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-22">
+          <mxGeometry x="45" y="450" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-32" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-1">
           <mxGeometry x="-120" y="80" width="100" height="2360" as="geometry" />
@@ -367,34 +381,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-48" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;③access_token&lt;/span&gt;存在且有效" style="shape=umlFrame;whiteSpace=wrap;html=1;width=107;height=65;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-1">
-          <mxGeometry x="281" y="1805" width="1310" height="145" as="geometry" />
+          <mxGeometry x="281" y="1059" width="1310" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="q1fy_rrpDw4296sdhuRr-49" value="2、post方式请求获取token接口&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/realm/protocol/openid-connect/token&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(&lt;span style=&quot;font-size: 11px;&quot;&gt;refresh_token&lt;/span&gt;,grant_type=&lt;span style=&quot;font-size: 11px;&quot;&gt;refresh_token&lt;/span&gt;,client_id)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.5;exitY=0.678;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-1" source="q1fy_rrpDw4296sdhuRr-4">
+        <mxCell id="q1fy_rrpDw4296sdhuRr-49" value="2、post方式请求获取token接口&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;auth-server-url&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;/auth/realms/realm/protocol/openid-connect/token&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(&lt;span style=&quot;font-size: 11px;&quot;&gt;refresh_token&lt;/span&gt;,grant_type=&lt;span style=&quot;font-size: 11px;&quot;&gt;refresh_token&lt;/span&gt;,client_id)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.5;exitY=0.678;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="398.96153846153857" y="1618" as="sourcePoint" />
-            <mxPoint x="894.9999999999995" y="1618" as="targetPoint" />
+            <mxPoint x="400" y="873.0600000000004" as="sourcePoint" />
+            <mxPoint x="894.9999999999995" y="872" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1fy_rrpDw4296sdhuRr-50" value="3、返回access_token，refresh_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-1" source="q1fy_rrpDw4296sdhuRr-31" target="q1fy_rrpDw4296sdhuRr-4">
+        <mxCell id="q1fy_rrpDw4296sdhuRr-50" value="3、返回access_token，refresh_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-1" source="q1fy_rrpDw4296sdhuRr-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="398.96153846153857" y="1676" as="targetPoint" />
+            <mxPoint x="396.5" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-1">
-          <mxGeometry x="395" y="1882" width="10" height="40" as="geometry" />
+          <mxGeometry x="395" y="1136" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-52" value="返回access_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-1" target="q1fy_rrpDw4296sdhuRr-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="399.99999999999955" y="1870" as="sourcePoint" />
+            <mxPoint x="399.99999999999955" y="1124" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="428" y="1862" />
+              <mxPoint x="428" y="1116" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1fy_rrpDw4296sdhuRr-53" value="返回&lt;span style=&quot;text-align: left;&quot;&gt;access_token&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-1" target="q1fy_rrpDw4296sdhuRr-46">
+        <mxCell id="q1fy_rrpDw4296sdhuRr-53" value="返回&lt;span style=&quot;text-align: left;&quot;&gt;access_token&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="399.99999999999955" y="2010" as="sourcePoint" />
-            <mxPoint x="248.96153846153857" y="2010" as="targetPoint" />
+            <mxPoint x="399.99999999999955" y="1264" as="sourcePoint" />
+            <mxPoint x="71.5" y="1264" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-54" value="1、打开APP" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="q1fy_rrpDw4296sdhuRr-1" target="q1fy_rrpDw4296sdhuRr-32">
@@ -426,6 +440,16 @@
         </mxCell>
         <mxCell id="q1fy_rrpDw4296sdhuRr-61" value="acccess_token有效期为2个小时-&amp;gt;修改为7天&lt;br&gt;refresh_token有效期为7天-&amp;gt;修改为30天&lt;br&gt;登录cookie有效期30天-&amp;gt;修改为90天" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;labelBorderColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="q1fy_rrpDw4296sdhuRr-1">
           <mxGeometry x="530" y="90" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H6xVQ_o2_Sp40MR1BOMA-1" value="6、获取guest的token&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;protocol/openid-connect/token&lt;br&gt;(client_id,&lt;/span&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;grant_type=password,username=guest,password=MD5(guest))&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="H6xVQ_o2_Sp40MR1BOMA-0" parent="q1fy_rrpDw4296sdhuRr-1" source="q1fy_rrpDw4296sdhuRr-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6xVQ_o2_Sp40MR1BOMA-2" value="7、返回access_token与refresh_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="H6xVQ_o2_Sp40MR1BOMA-0" parent="q1fy_rrpDw4296sdhuRr-1" target="q1fy_rrpDw4296sdhuRr-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="606" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

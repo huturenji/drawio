@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T02:38:09.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="J8kupoKjupDEZGGJY64E" version="20.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-24T02:42:40.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="PwYnwVXXjDTI_C0YmPGv" version="20.0.2" type="github" pages="5">
   <diagram id="Xu6wsOoYvgIS-8KDxQQB" name="H5授权方式">
     <mxGraphModel dx="1865" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LjY804sFfNMtDGaw_uSk" name="BBC授权流程">
-    <mxGraphModel dx="979" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -443,6 +443,9 @@
             <mxPoint x="653" y="426" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="stUiqcBTydb7WxThdrPL-1" value="acccesstoken有效期为1个小时；refreshtoken有效期为15天" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="8" y="-50" width="222" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -587,7 +590,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hiKEH9zktodd0GIOP6Oy" name="BBC首页加载流程">
-    <mxGraphModel dx="1278" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T01:26:43.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="bgJlIjQQE7KRYECtVLSk" version="20.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-24T02:38:09.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="J8kupoKjupDEZGGJY64E" version="20.0.2" type="github" pages="5">
   <diagram id="Xu6wsOoYvgIS-8KDxQQB" name="H5授权方式">
     <mxGraphModel dx="1865" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LjY804sFfNMtDGaw_uSk" name="BBC授权流程">
-    <mxGraphModel dx="1278" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -501,22 +501,11 @@
         <mxCell id="RCXIN1NprYEP38VMml28-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IdbaqCRXDyQclCI0tgIo-8">
           <mxGeometry x="45" y="140" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RCXIN1NprYEP38VMml28-4" value="获取缓存中的用户是否同意协议" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="RCXIN1NprYEP38VMml28-3" parent="IdbaqCRXDyQclCI0tgIo-8">
+        <mxCell id="RCXIN1NprYEP38VMml28-4" value="3-1、获取缓存中的用户是否同意协议，有缓存直接返回协议同意" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="RCXIN1NprYEP38VMml28-3" parent="IdbaqCRXDyQclCI0tgIo-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="120" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="75" y="120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RCXIN1NprYEP38VMml28-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IdbaqCRXDyQclCI0tgIo-8">
-          <mxGeometry x="45" y="294" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RCXIN1NprYEP38VMml28-6" value="更新缓存中用户同意的协议" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="RCXIN1NprYEP38VMml28-5" parent="IdbaqCRXDyQclCI0tgIo-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="274" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="75" y="274" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -537,7 +526,7 @@
             <mxPoint x="315" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IdbaqCRXDyQclCI0tgIo-17" value="&lt;br&gt;3、v3/channel/front/getUserConsent(userId,channelId)&lt;br&gt;获取用户是否同意协议" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="IdbaqCRXDyQclCI0tgIo-8" target="IdbaqCRXDyQclCI0tgIo-13" edge="1">
+        <mxCell id="IdbaqCRXDyQclCI0tgIo-17" value="&lt;br&gt;3-2、v3/channel/front/getUserConsent(userId,channelId)&lt;br&gt;获取用户是否同意协议" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="IdbaqCRXDyQclCI0tgIo-8" target="IdbaqCRXDyQclCI0tgIo-13" edge="1">
           <mxGeometry x="-0.0039" relative="1" as="geometry">
             <mxPoint x="505" y="180" as="sourcePoint" />
             <mxPoint as="offset" />

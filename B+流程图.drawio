@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T05:50:36.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8dWFiAEZf2cUyicdhM6q" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-11T05:52:57.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="rScbOm1otEED-qkcNE89" version="20.0.4" type="github" pages="6">
   <diagram id="Xu6wsOoYvgIS-8KDxQQB" name="H5授权方式">
     <mxGraphModel dx="1865" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -917,7 +917,7 @@
         <mxCell id="h-YGNNq2WJdK_Oez8BOP-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="190" y="955" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h-YGNNq2WJdK_Oez8BOP-6" value="页面提示渠道关闭" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" target="h-YGNNq2WJdK_Oez8BOP-5" edge="1">
+        <mxCell id="h-YGNNq2WJdK_Oez8BOP-6" value="页面提示渠道已停用" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" target="h-YGNNq2WJdK_Oez8BOP-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="195" y="935" as="sourcePoint" />
             <Array as="points">

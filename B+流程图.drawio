@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T06:40:18.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="fWE9EheAGm_FXvZyK4B4" version="20.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-11T06:51:10.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8FcAzm9LPGkdmeNndmDe" version="20.0.4" type="github" pages="7">
   <diagram id="Xu6wsOoYvgIS-8KDxQQB" name="H5授权方式">
     <mxGraphModel dx="1865" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -705,7 +705,7 @@
             <mxPoint x="545" y="386" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fyt-gMPSG82FW0YGlnh1-5" value="3、重新获取access_token" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;" edge="1" target="Fyt-gMPSG82FW0YGlnh1-4" parent="1" source="vbqcXofsJkn4G5FYUkxv-3">
+        <mxCell id="Fyt-gMPSG82FW0YGlnh1-5" value="3、重新授权获取getaccesstoken()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;" edge="1" target="Fyt-gMPSG82FW0YGlnh1-4" parent="1" source="vbqcXofsJkn4G5FYUkxv-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="245" y="420" as="sourcePoint" />
           </mxGeometry>
@@ -754,6 +754,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="535" y="926" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tvXYWO_EyasBmIMT7yvv-1" value="同一时间有多个getAccessToken请求处理：所有请求进入一个队列，执行第一个请求，队列内其他所有请求pending，待第一个请求返回结果后，队列内所有请求都返回第一个请求的结果" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="514" y="410" width="216" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

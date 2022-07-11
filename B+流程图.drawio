@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T05:52:57.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="rScbOm1otEED-qkcNE89" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-11T05:57:09.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SDQ61UPsKQ-eipBW1IWI" version="20.0.4" type="github" pages="7">
   <diagram id="Xu6wsOoYvgIS-8KDxQQB" name="H5授权方式">
     <mxGraphModel dx="1865" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -465,7 +465,7 @@
         <mxCell id="4Hhrwoj3rQ3Iil4X_ecJ-2" value="access_token不存在或者access_token与refresh_token均无效" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=80;" parent="1" vertex="1">
           <mxGeometry x="38" y="349" width="750" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="4Hhrwoj3rQ3Iil4X_ecJ-3" value="BBC H5" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="4Hhrwoj3rQ3Iil4X_ecJ-3" value="BBC auth" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="108" y="40" width="100" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="4Hhrwoj3rQ3Iil4X_ecJ-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="4Hhrwoj3rQ3Iil4X_ecJ-3" vertex="1">
@@ -621,6 +621,92 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="225" y="196" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RWi1SfcfKEdo3Z-_5-1h" name="BBC重新授权">
+    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-3" value="BBC H5" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="108" y="40" width="100" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vbqcXofsJkn4G5FYUkxv-3">
+          <mxGeometry x="45" y="729" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-7" value="7、本地存储access_token与refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="vbqcXofsJkn4G5FYUkxv-3" target="vbqcXofsJkn4G5FYUkxv-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="709" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="45" y="709" />
+              <mxPoint x="75" y="709" />
+              <mxPoint x="75" y="729" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-10" value="BBC server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="40" width="100" height="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vbqcXofsJkn4G5FYUkxv-10">
+          <mxGeometry x="45" y="429" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vbqcXofsJkn4G5FYUkxv-10">
+          <mxGeometry x="50" y="569" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-14" value="6.1、使用publicKey校验B+ token&lt;br&gt;6.2、生成BBC access_token与&lt;br&gt;refresh_token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="vbqcXofsJkn4G5FYUkxv-10" target="vbqcXofsJkn4G5FYUkxv-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="549" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-15" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="8" y="40" width="20" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-16" value="1、打开H5页面" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="vbqcXofsJkn4G5FYUkxv-15" target="vbqcXofsJkn4G5FYUkxv-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="80" as="sourcePoint" />
+            <mxPoint x="90" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-17" value="B+ keycloak" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="40" width="100" height="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vbqcXofsJkn4G5FYUkxv-17">
+          <mxGeometry x="45" y="449" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-19" value="B+keycloak&lt;br&gt;js-adapter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="100" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-23" value="4、v3/member/front/login/tokenExchange(B+ token)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="vbqcXofsJkn4G5FYUkxv-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157.5" y="479" as="sourcePoint" />
+            <mxPoint x="548" y="479" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="388" y="479" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-24" value="返回BBC access_token与refresh_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="vbqcXofsJkn4G5FYUkxv-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157.5" y="715.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-30" value="5、获取getPublickey()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.96;exitY=0.084;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vbqcXofsJkn4G5FYUkxv-11" target="vbqcXofsJkn4G5FYUkxv-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="548" y="489" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-31" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="vbqcXofsJkn4G5FYUkxv-18" target="vbqcXofsJkn4G5FYUkxv-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="653" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbqcXofsJkn4G5FYUkxv-32" value="acccess_token有效期为7天；refresh_token有效期为30天" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;labelBorderColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="870" y="60" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

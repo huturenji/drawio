@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T06:27:59.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="14qobCgbpNcs0oKCuA6Y" version="20.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-11T06:30:58.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="HXCzYlx94IFF_Gl0t9rb" version="20.0.4" type="github" pages="7">
   <diagram id="Xu6wsOoYvgIS-8KDxQQB" name="H5授权方式">
     <mxGraphModel dx="1865" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -643,7 +643,7 @@
           <mxGeometry x="108" y="200" width="100" height="860" as="geometry" />
         </mxCell>
         <mxCell id="vbqcXofsJkn4G5FYUkxv-10" value="BBC server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="200" width="100" height="930" as="geometry" />
+          <mxGeometry x="560" y="200" width="100" height="930" as="geometry" />
         </mxCell>
         <mxCell id="Fyt-gMPSG82FW0YGlnh1-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vbqcXofsJkn4G5FYUkxv-10">
           <mxGeometry x="45" y="110" width="10" height="80" as="geometry" />
@@ -672,7 +672,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vbqcXofsJkn4G5FYUkxv-17" value="B+ keycloak" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="727" y="200" width="100" height="920" as="geometry" />
+          <mxGeometry x="720" y="200" width="100" height="920" as="geometry" />
         </mxCell>
         <mxCell id="QhhwXKZ90JyRZA23feBa-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="vbqcXofsJkn4G5FYUkxv-17">
           <mxGeometry x="45" y="400" width="10" height="80" as="geometry" />
@@ -702,7 +702,7 @@
             <mxPoint x="545" y="386" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fyt-gMPSG82FW0YGlnh1-5" value="3、获取access_token" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;" edge="1" target="Fyt-gMPSG82FW0YGlnh1-4" parent="1" source="vbqcXofsJkn4G5FYUkxv-3">
+        <mxCell id="Fyt-gMPSG82FW0YGlnh1-5" value="3、重新获取access_token" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;" edge="1" target="Fyt-gMPSG82FW0YGlnh1-4" parent="1" source="vbqcXofsJkn4G5FYUkxv-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="245" y="420" as="sourcePoint" />
           </mxGeometry>

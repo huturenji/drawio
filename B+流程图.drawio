@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T06:30:58.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="HXCzYlx94IFF_Gl0t9rb" version="20.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-11T06:40:18.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="fWE9EheAGm_FXvZyK4B4" version="20.0.4" type="github" pages="7">
   <diagram id="Xu6wsOoYvgIS-8KDxQQB" name="H5授权方式">
     <mxGraphModel dx="1865" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -662,6 +662,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="QhhwXKZ90JyRZA23feBa-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="vbqcXofsJkn4G5FYUkxv-10">
+          <mxGeometry x="45" y="650" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="vbqcXofsJkn4G5FYUkxv-15" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="8" y="200" width="20" height="850" as="geometry" />
         </mxCell>
@@ -740,6 +743,16 @@
         <mxCell id="QhhwXKZ90JyRZA23feBa-6" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;" edge="1" source="QhhwXKZ90JyRZA23feBa-4" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="619.5" y="676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QhhwXKZ90JyRZA23feBa-12" value="11、重新请求步骤1中的业务接口" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;" edge="1" target="QhhwXKZ90JyRZA23feBa-11" parent="1" source="vbqcXofsJkn4G5FYUkxv-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="850" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QhhwXKZ90JyRZA23feBa-13" value="返回业务数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;" edge="1" source="QhhwXKZ90JyRZA23feBa-11" parent="1" target="vbqcXofsJkn4G5FYUkxv-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="926" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

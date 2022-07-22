@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T00:51:31.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="kgXg_TdRFGvKWN39sps7" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-22T00:56:43.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="3wyOXvAtSHj203swPhsk" version="20.0.4" type="github" pages="5">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
     <mxGraphModel dx="1038" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1057,7 +1057,7 @@
         <mxCell id="FjSqnaUaBbZStZSRDnAL-27" value="稠州银行推送正常，是因为推送服务将userId的@符号进行截取" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="450" y="830" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FjSqnaUaBbZStZSRDnAL-31" value="bizmateId在keycloak中配置映射，新银行映射userName字段，老银行映射uaid字段" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-31" value="bizmateId在银行keycloak中配置映射，新银行映射userName字段，老银行映射uaid字段" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="820" y="240" width="80" height="100" as="geometry" />
         </mxCell>
       </root>

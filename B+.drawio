@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T01:46:58.343Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7Y97XvoVkdh9_cNnIvzW" version="18.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-22T00:50:33.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="GKTAfEXQDvqu8iVXDa43" version="20.0.4" type="github" pages="5">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
-    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -931,6 +931,131 @@
         </mxCell>
         <mxCell id="TFPBXAryMaIbNPfAVPvn-89" value="增删改查" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};swimlaneLine=1;" parent="3G3P9yXx3vg_NhhJZUMs-22" vertex="1">
           <mxGeometry x="800" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1wnXBtnNIH5EQhk6S1Od" name="userId">
+    <mxGraphModel dx="1865" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FjSqnaUaBbZStZSRDnAL-1" target="FjSqnaUaBbZStZSRDnAL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-15" value="新银行直接从keycloak获取UAId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjSqnaUaBbZStZSRDnAL-14">
+          <mxGeometry x="-0.0792" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FjSqnaUaBbZStZSRDnAL-1" target="FjSqnaUaBbZStZSRDnAL-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="320" />
+              <mxPoint x="150" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-19" value="获取UAId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjSqnaUaBbZStZSRDnAL-17">
+          <mxGeometry x="0.2358" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-21" value="第一步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjSqnaUaBbZStZSRDnAL-17">
+          <mxGeometry x="-0.62" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-1" value="银行APP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FjSqnaUaBbZStZSRDnAL-2" target="FjSqnaUaBbZStZSRDnAL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-23" value="第三步 验证相关登录信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjSqnaUaBbZStZSRDnAL-22">
+          <mxGeometry x="-0.1016" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-2" value="银行keycloak" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="690" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FjSqnaUaBbZStZSRDnAL-3" target="FjSqnaUaBbZStZSRDnAL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-8" value="userId通过bizmateId映射&lt;br&gt;字段名：bizmateId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjSqnaUaBbZStZSRDnAL-6">
+          <mxGeometry x="-0.3114" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-3" value="比N家keycloak" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="690" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FjSqnaUaBbZStZSRDnAL-4" target="FjSqnaUaBbZStZSRDnAL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-7" value="调用jsbridge方法GetUserInfoFunction获取用户id&lt;br&gt;字段名：UAId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjSqnaUaBbZStZSRDnAL-5">
+          <mxGeometry x="-0.2086" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FjSqnaUaBbZStZSRDnAL-4" target="FjSqnaUaBbZStZSRDnAL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-12" value="调用接口获取银行用户id&lt;br&gt;字段名：thirdUserId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjSqnaUaBbZStZSRDnAL-11">
+          <mxGeometry x="-0.2199" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-4" value="比N家H5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FjSqnaUaBbZStZSRDnAL-9" target="FjSqnaUaBbZStZSRDnAL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-13" value="调用接口获取银行用户id&lt;br&gt;字段名：userId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjSqnaUaBbZStZSRDnAL-10">
+          <mxGeometry x="-0.2958" y="-3" relative="1" as="geometry">
+            <mxPoint x="23" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-9" value="比N家server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-18" value="第二步 登录keycloak&lt;br&gt;请求参数(UAId,channelId)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FjSqnaUaBbZStZSRDnAL-1" target="FjSqnaUaBbZStZSRDnAL-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="510" />
+              <mxPoint x="780" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-16" value="老银行用户服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-20" value="华兴银行APP返回的UAId与keycloak同步的userId都是纯数字" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FjSqnaUaBbZStZSRDnAL-24" target="FjSqnaUaBbZStZSRDnAL-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FjSqnaUaBbZStZSRDnAL-24" target="FjSqnaUaBbZStZSRDnAL-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FjSqnaUaBbZStZSRDnAL-24" target="FjSqnaUaBbZStZSRDnAL-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-24" value="稠州银行APP返回的UAId与keycloak同步的userId不一致" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-25" value="APP返回的UAId为纯数字" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-26" value="keycloak同步的userId有@符号" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjSqnaUaBbZStZSRDnAL-27" value="稠州银行推送正常，是因为推送服务将userId的@符号进行截取" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="830" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

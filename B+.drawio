@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T02:25:39.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="uv3PdllOa7TnLL-3lGKn" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-26T02:29:16.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="K6C-cW3g2khKnkpFHLzU" version="20.0.4" type="github" pages="6">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1068,6 +1068,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5WhNtMov4RH78kOzG2do-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="60" width="190" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="3jSX4DvnYWcjw6Y_av-h-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="320" width="180" height="320" as="geometry" />
         </mxCell>
@@ -1170,6 +1173,27 @@
         </mxCell>
         <mxCell id="oboNRdwhgcWIno7vlnjC-15" value="B+公共函数工具库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="486" y="370.0013793103448" width="120" height="44.634482758620685" as="geometry" />
+        </mxCell>
+        <mxCell id="5WhNtMov4RH78kOzG2do-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="109.5" as="sourcePoint" />
+            <mxPoint x="630" y="109.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WhNtMov4RH78kOzG2do-41" value="弱依赖" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="95" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WhNtMov4RH78kOzG2do-42" value="图例说明：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="539" y="70" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="5WhNtMov4RH78kOzG2do-43" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="140" as="sourcePoint" />
+            <mxPoint x="630" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WhNtMov4RH78kOzG2do-44" value="强依赖" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="124" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

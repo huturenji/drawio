@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T02:47:30.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="VAsC4m_hxRQ0S1i3pAAv" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-27T02:48:08.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="wcYNYYf7FsrRSmOgc9wf" version="20.0.4" type="github" pages="6">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1262,11 +1262,8 @@
         <mxCell id="5WhNtMov4RH78kOzG2do-64" value="B+业务代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="140" width="96" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5WhNtMov4RH78kOzG2do-66" value="业务公共JS/CSS代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="148" y="205" width="460" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="5WhNtMov4RH78kOzG2do-76" value="业务JS/CSS代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="148" y="166" width="460" height="30" as="geometry" />
+          <mxGeometry x="210" y="170" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5WhNtMov4RH78kOzG2do-67" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-240" y="320" width="200" height="320" as="geometry" />
@@ -1291,6 +1288,9 @@
         </mxCell>
         <mxCell id="5WhNtMov4RH78kOzG2do-85" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-215.75" y="592.07" width="135.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WhNtMov4RH78kOzG2do-86" value="业务公共JS/CSS代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="170" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

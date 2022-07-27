@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T02:45:11.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="BmWgBGe9QyzO0pdelclb" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-27T02:47:10.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="cl39XeeSliEcKU1WxaoJ" version="20.0.4" type="github" pages="6">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1273,22 +1273,22 @@
           <mxGeometry x="-196" y="330" width="96" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5WhNtMov4RH78kOzG2do-70" value="vue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-231" y="356" width="51" height="30" as="geometry" />
+          <mxGeometry x="-215.75" y="370" width="135.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5WhNtMov4RH78kOzG2do-71" value="react" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-165.5" y="356" width="51" height="30" as="geometry" />
+        <mxCell id="5WhNtMov4RH78kOzG2do-81" value="react" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-215.75" y="414.64" width="135.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5WhNtMov4RH78kOzG2do-72" value="dva" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="356" width="51" height="30" as="geometry" />
+        <mxCell id="5WhNtMov4RH78kOzG2do-82" value="dva" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-215.75" y="465" width="135.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5WhNtMov4RH78kOzG2do-73" value="sinosun-ui" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-231" y="395" width="51" height="30" as="geometry" />
+        <mxCell id="5WhNtMov4RH78kOzG2do-83" value="sinosun-ui" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-215.75" y="510" width="135.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5WhNtMov4RH78kOzG2do-74" value="umi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-165.5" y="395" width="51" height="30" as="geometry" />
+        <mxCell id="5WhNtMov4RH78kOzG2do-84" value="umi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-215.75" y="555" width="135.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5WhNtMov4RH78kOzG2do-75" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="395" width="51" height="30" as="geometry" />
+        <mxCell id="5WhNtMov4RH78kOzG2do-85" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-215.75" y="592.07" width="135.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

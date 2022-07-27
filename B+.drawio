@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T02:48:08.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="wcYNYYf7FsrRSmOgc9wf" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-27T02:48:41.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="htXqoMGMLTQFZ1bnposg" version="20.0.4" type="github" pages="6">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1161,7 +1161,7 @@
         <mxCell id="5WhNtMov4RH78kOzG2do-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5WhNtMov4RH78kOzG2do-3" target="5WhNtMov4RH78kOzG2do-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5WhNtMov4RH78kOzG2do-3" value="B+数据请求库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5WhNtMov4RH78kOzG2do-3" value="B+数据接口请求库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="488" y="435.86482758620684" width="120" height="44.137931034482754" as="geometry" />
         </mxCell>
         <mxCell id="5WhNtMov4RH78kOzG2do-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.015;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5WhNtMov4RH78kOzG2do-9" target="5WhNtMov4RH78kOzG2do-2">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T02:47:10.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="cl39XeeSliEcKU1WxaoJ" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-27T02:47:30.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="VAsC4m_hxRQ0S1i3pAAv" version="20.0.4" type="github" pages="6">
   <diagram id="oIqPUORSx6AU8MDn17wn" name="商云授权流程(平台判断)">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1123,8 +1123,10 @@
             <mxPoint x="203.16000000000008" y="248.25" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5WhNtMov4RH78kOzG2do-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.804;exitY=1.015;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="oboNRdwhgcWIno7vlnjC-11" target="5WhNtMov4RH78kOzG2do-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5WhNtMov4RH78kOzG2do-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.804;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oboNRdwhgcWIno7vlnjC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5WhNtMov4RH78kOzG2do-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oboNRdwhgcWIno7vlnjC-11" target="5WhNtMov4RH78kOzG2do-67">
           <mxGeometry relative="1" as="geometry" />

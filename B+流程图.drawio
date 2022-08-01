@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T02:31:01.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KLXzwJa8Dg4TcTOk8UCO" version="20.2.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-08-01T02:52:46.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="5Mfl0qjm3TCxYXPPzM1i" version="20.2.1" type="github" pages="7">
   <diagram id="Xu6wsOoYvgIS-8KDxQQB" name="H5授权方式">
     <mxGraphModel dx="1865" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1311,8 +1311,8 @@
             <mxPoint x="300" y="1550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="767CQorYUH_udr9S_JBZ-2" value="装修数据量太大导致页面渲染很慢，前端解决方案如下：&lt;br&gt;1、前端分页，获取到装修数据后，将数据以每页10条进行分页&lt;br&gt;2、" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="790" width="190" height="120" as="geometry" />
+        <mxCell id="767CQorYUH_udr9S_JBZ-2" value="装修数据量太大导致页面渲染很慢，前端解决方案如下：&lt;br&gt;1、前端分页，获取到装修数据后，将数据以每页10条进行分页，用户滑动之后再加载下一页&lt;br&gt;2、批量5条查询商品分类信息、可售性、库存等接口" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="740" width="200" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
